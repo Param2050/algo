@@ -13,13 +13,13 @@ public class Deletion {
         }
     }
 
-    public void push(int data) {
+    void push(int data) {
         ListNode new_node = new ListNode(data);
         new_node.next = head;
         head = new_node;
     }
 
-    public void printList() {
+    void printList() {
         ListNode curr = head;
 
         while (curr != null) {
@@ -29,7 +29,7 @@ public class Deletion {
         System.out.println("");
     }
 
-    public void deleteNode(int key) {
+    void deleteNode(int key) {
 
         ListNode curr = head;
         ListNode prev = null;
@@ -44,6 +44,7 @@ public class Deletion {
 
             if (curr.data == key) {
                 prev.next = curr.next;
+                curr.next = null;
                 break;
             } else {
                 prev = curr;
@@ -65,7 +66,7 @@ public class Deletion {
 
         System.out.println("Before deletion");
         deletion.printList();
-        deletion.deleteNode(5);
+        deletion.deleteNode(1);
         System.out.println("After deletion");
         deletion.printList();
 
