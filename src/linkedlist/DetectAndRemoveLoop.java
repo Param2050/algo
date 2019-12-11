@@ -1,7 +1,6 @@
 package linkedlist;
 
-public class DetectLoop {
-
+public class DetectAndRemoveLoop {
     ListNode head;
 
     private class ListNode {
@@ -20,7 +19,7 @@ public class DetectLoop {
         head = new_node;
     }
 
-    private void printList() {
+    void printList() {
         ListNode curr = head;
         ListNode prev = null;
         while(curr != null) {
@@ -32,36 +31,49 @@ public class DetectLoop {
         System.out.println();
     }
 
-    private void detectLoop() {
+    private void detectAndRemoveLoop() {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(slow != null && fast != null && fast.next != null) {
+        while (slow != null && fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast) {
-                System.out.println("Loop found ");
+            if (slow == fast) {
+                System.out.println("Loop Found");
                 break;
             }
+        }
+
+        if(slow == fast) {
+            slow = head;
+
+            while(slow.next != fast.next) {
+                slow = slow.next;
+                fast = fast.next;
+            }
+            System.out.println("Starting point of loop " + slow.next.data);
+            fast.next = null;
         }
 
     }
 
 
     public static void main(String args[]) {
-        DetectLoop detectLoop = new DetectLoop();
+        DetectAndRemoveLoop obj = new DetectAndRemoveLoop();
 
-        detectLoop.push(5);
-        detectLoop.push(4);
-        detectLoop.push(3);
-        detectLoop.push(2);
-        detectLoop.push(1);
+        obj.push(5);
+        obj.push(4);
+        obj.push(3);
+        obj.push(2);
+        obj.push(1);
 
-        detectLoop.printList();
+        obj.printList();;
 
-        detectLoop.detectLoop();
+        obj.detectAndRemoveLoop();
 
+        obj.printList();;
     }
+
 
 }

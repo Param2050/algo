@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/Deletion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="440">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -38,17 +39,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="616">
+              <caret line="28" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="183">
+              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -69,12 +88,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/linkedlist/Insertion.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/Deletion.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/Reverse.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/FindMiddle.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java" />
       </list>
     </option>
   </component>
@@ -92,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,8 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,9 +153,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NthNodeFromEnd">
-    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Deletion" />
+  <component name="RunManager" selected="Application.DetectAndRemoveLoop">
+    <configuration name="DetectAndRemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectAndRemoveLoop" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectAndRemoveLoop" />
         <item itemvalue="Application.NthNodeFromEnd" />
         <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.FindMiddle" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.Deletion" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +284,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,12 +293,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4942717" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47135842" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -311,13 +331,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -341,22 +354,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/Deletion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="440">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="616">
+          <caret line="28" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="92">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
         </state>
       </provider>
     </entry>
