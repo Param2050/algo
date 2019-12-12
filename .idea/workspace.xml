@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseInAGroupOfGivenSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/FindIntersectionPointOfList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,35 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
+            <state relative-caret-position="228">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/Reverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseInAGroupOfGivenSize.java">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/FindIntersectionPointOfList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="139">
+              <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -105,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ReverseInAGroupOfGivenSize.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/FindIntersectionPointOfList.java" />
       </list>
     </option>
   </component>
@@ -163,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseInAGroupOfGivenSize">
+  <component name="RunManager" selected="Application.FindIntersectionPointOfList">
     <configuration name="DetectAndRemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.DetectAndRemoveLoop" />
       <module name="algorithms" />
@@ -177,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.FindMiddle" />
+    <configuration name="FindIntersectionPointOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.FindIntersectionPointOfList" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -231,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindIntersectionPointOfList" />
         <item itemvalue="Application.ReverseInAGroupOfGivenSize" />
         <item itemvalue="Application.DetectAndRemoveLoop" />
         <item itemvalue="Application.NthNodeFromEnd" />
         <item itemvalue="Application.RotateLinkedList" />
-        <item itemvalue="Application.FindMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -376,31 +358,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseInAGroupOfGivenSize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="184">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="8">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseInAGroupOfGivenSize.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="228">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/FindIntersectionPointOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
         </state>
       </provider>
     </entry>
