@@ -1,6 +1,7 @@
 package arrays;
 
 public class LeaderInArray {
+
     public static void main(String ar[]) {
         int arr[] = {16, 17, 4, 3, 5, 2};
         new LeaderInArray().getLeader(arr);
