@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ConvertArrayToZigZagArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ReverseArrayWithGivenGroupSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConvertArrayToZigZagArray">
+  <component name="RunManager" selected="Application.ReverseArrayWithGivenGroupSize">
     <configuration name="ConvertArrayToZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ConvertArrayToZigZagArray" />
       <module name="algorithms" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeTwoSortedArray" />
+    <configuration name="ReArrangeArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ReArrangeArrayAlternatively" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReArrangeArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ReArrangeArrayAlternatively" />
+    <configuration name="ReverseArrayWithGivenGroupSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ReverseArrayWithGivenGroupSize" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArrayWithGivenGroupSize" />
         <item itemvalue="Application.ConvertArrayToZigZagArray" />
         <item itemvalue="Application.ReArrangeArrayAlternatively" />
         <item itemvalue="Application.Sort012" />
         <item itemvalue="Application.FindAnMissingNumber" />
-        <item itemvalue="Application.MergeTwoSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -187,22 +187,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1594372350862" />
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1597999099274">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1598002169923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597999099274" />
-    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1597999099274">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598002169923" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1598002169923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597999099274" />
-    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1597999099273">
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598002169923" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1598002169923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597999099273" />
-    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1597999099274">
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598002169923" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1598002169923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597999099274" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598002169923" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597923334489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
