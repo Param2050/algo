@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class RemoveConsecutiveDuplicatesFromString {
 
     public static void main(String args[]) {
-        String str = "aabcca";
+        String str = "aaabccddd";
         removeConsecutiveDuplicatesFromString(str);
 
     }
