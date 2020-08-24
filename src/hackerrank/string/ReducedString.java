@@ -4,39 +4,32 @@ public class ReducedString {
 
 
     public static void main(String args[]) {
-        String str = "baab";
-        System.out.println(superReducedString(str));
+        String str = "aaabccddd";
+        String result = superReducedString(str);
+        System.out.println(result);
     }
 
-    static String superReducedString(String str) {
+    static String superReducedString(String s) {
+        StringBuilder str = new StringBuilder(s);
+        boolean flag = true;
 
-        char arr[] = str.toCharArray();
+        while (flag) {
+            flag = false;
+            for (int i = 0; i < str.length() - 1; ++i) {
 
-        int n = arr.length;
+                if (str.charAt(i) == str.charAt(i + 1)) {
+                    str.delete(i, i + 2);
+                    flag = true;
 
-        if(n == 2) {
-            if(arr[0] == arr[1]) {
-                return "Empty String";
+                }
             }
         }
 
-        String outputString = "";
-
-        for(int i=0; i<n-1; i++) {
-            if(arr[i] == arr[i+1]) {
-                i = i+1;
-                continue;
-            }
-            else if(arr[i] != arr[i+1]) {
-                outputString = outputString + arr[i];
-            }
+        if (str.length() == 0) {
+            return "Empty String";
+        } else {
+            return str.toString();
         }
-
-        if(arr[n-2] == arr[n-1]) {
-            outputString = outputString + arr[n-1];
-        }
-
-    return outputString;
     }
 
 }
