@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/string/StrongPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/string/ReducedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/string/ReducedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/string/StrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/string/StrongPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,38 +189,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1594372350862" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1598273417719">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598284361623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598273417719" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1598273417719">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598284361623" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598284361623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598273417719" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1598273417719">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598284361623" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598284361622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598273417719" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1598273417719">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598284361622" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598284361623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598273417719" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598273417720">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598284361623" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598284340414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598273417720" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1598273417720">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598284340414" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1598284340413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598273417720" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1598273417719">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598284340413" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1598284340413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598273417719" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1598273417720">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598284340413" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1598284340414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598273417720" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598284340414" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1597998382713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,13 +265,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/string/StrongPassword.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hackerrank/string/StrongPassword.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="21" />
+          <line>54</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

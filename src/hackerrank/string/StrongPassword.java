@@ -6,7 +6,7 @@ public class StrongPassword {
 
 
     public static void main(String args[]) {
-        String str = "^e!zA";
+        String str = "Ab1";
         int n = minimumNumber(str.length(), str);
         System.out.println(n);
     }
@@ -21,7 +21,7 @@ public class StrongPassword {
 
         String regix = "!@#$%^&*()-+";
 
-        int missingCharCount = 0;
+        int count = 4;
 
         char arr[] = password.toCharArray();
 
@@ -39,26 +39,20 @@ public class StrongPassword {
             }
         }
 
-        if(specialChar == false) {
-            missingCharCount++;
+        if(specialChar == true) {
+            count = count - 1;
         }
-        if(lowerCase == false) {
-            missingCharCount++;
+        if(lowerCase == true) {
+            count = count - 1;
         }
-        if(upperCase == false) {
-            missingCharCount++;
+        if(upperCase == true) {
+            count = count - 1;
         }
-        if(isDigit == false) {
-            missingCharCount++;
+        if(isDigit == true) {
+            count--;
         }
 
-        if(n >= MAX_LEN)
-            return missingCharCount;
-        else if((n + missingCharCount) >= MAX_LEN) {
-            return missingCharCount;
-        } else {
-            return MAX_LEN - n;
-        }
+        return Integer.max(count, MAX_LEN-n);
 
     }
 
