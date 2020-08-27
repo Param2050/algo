@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/string/Pangrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/string/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/string/TwoStringProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +48,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pangrams">
-    <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.CaesarCipher" />
+  <component name="RunManager" selected="Application.TwoStringProblem">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.string.Anagram" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReducedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.ReducedString" />
+    <configuration name="TwoStringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.string.TwoStringProblem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoStringProblem" />
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.Pangrams" />
         <item itemvalue="Application.MarsExploration" />
         <item itemvalue="Application.HackerRankInAString" />
-        <item itemvalue="Application.CaesarCipher" />
-        <item itemvalue="Application.ReducedString" />
       </list>
     </recent_temporary>
   </component>
@@ -189,38 +190,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1594372350862" />
-    <state width="1323" height="200" key="GridCell.Tab.0.bottom" timestamp="1598359038263">
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom" timestamp="1598466685758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598359038263" />
-    <state width="1323" height="200" key="GridCell.Tab.0.center" timestamp="1598359038263">
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598466685758" />
+    <state width="1323" height="200" key="GridCell.Tab.0.center" timestamp="1598466685758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598359038263" />
-    <state width="1323" height="200" key="GridCell.Tab.0.left" timestamp="1598359038262">
+    <state width="1323" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598466685758" />
+    <state width="1323" height="200" key="GridCell.Tab.0.left" timestamp="1598466685758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598359038262" />
-    <state width="1323" height="200" key="GridCell.Tab.0.right" timestamp="1598359038263">
+    <state width="1323" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598466685758" />
+    <state width="1323" height="200" key="GridCell.Tab.0.right" timestamp="1598466685758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598359038263" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598359038258">
+    <state width="1323" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598466685758" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598376117135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598359038258" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1598359038258">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598376117135" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1598376117135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598359038258" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1598359038257">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598376117135" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1598376117135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598359038257" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1598359038258">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598376117135" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1598376117135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598359038258" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598376117135" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1598290747927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -297,6 +298,11 @@
           <url>file://$PROJECT_DIR$/src/hackerrank/string/Pangrams.java</url>
           <line>27</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/string/Anagram.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
