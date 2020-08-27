@@ -44,18 +44,4 @@ public class GemStones {
         return gemStonesCount;
     }
 
-    static String removeDuplicates(String str)
-    {
-        LinkedHashSet<Character> lhs = new LinkedHashSet<>();
-        for(int i=0;i<str.length();i++)
-            lhs.add(str.charAt(i));
-
-        // print string after deleting duplicate elements
-        StringBuilder builder = new StringBuilder();
-        for(Character ch : lhs) {
-            builder.append(ch);
-        }
-        return builder.toString();
-    }
-
 }
