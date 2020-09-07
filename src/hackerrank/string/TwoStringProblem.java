@@ -4,29 +4,25 @@ package hackerrank.string;
 // Not completed*********************************************
 public class TwoStringProblem {
 
-
     public static void main(String args[]) {
-        String str = "madamk";
-        int i=0;
-        int j=str.length()-1;
-        boolean flag = true;
-        while(i<j) {
-            if(str.charAt(i) != str.charAt(j)) {
-                flag = false;
-                break;
-            }
-            i++;
-            j--;
-        }
-
-        if(flag == false) {
-            System.out.println("No");
-        }else if(flag == true) {
-            System.out.println("Yes");
-        }
-
+        String str1 = "hello";
+        String str2 = "world";
+        System.out.println(twoStrings(str1, str2));
     }
 
-
+    static String twoStrings(String s1, String s2) {
+        int count[] = new int[26];
+        for(int i=0; i<s2.length(); i++) {
+            char ch = s2.charAt(i);
+            count[ch - 'a']++;
+        }
+        for(int i=0; i<s1.length(); i++) {
+            char ch = s1.charAt(i);
+            if (count[ch - 'a'] > 0){
+                return "YES";
+            }
+        }
+        return "NO";
+    }
 
 }
