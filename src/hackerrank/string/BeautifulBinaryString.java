@@ -1,7 +1,5 @@
 package hackerrank.string;
 
-
-// Not completed*********************************************
 public class BeautifulBinaryString {
 
     public static void main(String args[]) {
