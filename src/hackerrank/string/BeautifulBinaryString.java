@@ -11,21 +11,16 @@ public class BeautifulBinaryString {
 
     static int beautifulBinaryString(String str) {
         int len = str.length();
-        int minCount = 0;
-        int j=0;
-        String binaryString = "010";
-        for(int i=0; i<len; i++) {
-            if(str.charAt(i) == binaryString.charAt(j)) {
-                j++;
-            } else if(str.charAt(i) != binaryString.charAt(j)) {
-                j=0;
-            }
-            if(j == 3) {
-                minCount++;
-                j=0;
+        int minStepsCount = 0;
+        for(int i=0; i<=len-3;) {
+            if(str.substring(i, i+3).equals("010")) {
+                minStepsCount++;
+                i=i+3;
+            }else {
+                i++;
             }
         }
-        return minCount;
+        return minStepsCount;
     }
 
 }

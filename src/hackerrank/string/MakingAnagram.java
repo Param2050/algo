@@ -13,10 +13,12 @@ public class MakingAnagram {
     }
 
     static int makingAnagrams(String s1, String s2) {
+
         int max_len = 26;
         int c1[]=new int[max_len];
         int c2[]=new int[max_len];
         int minCount = 0;
+
         for(int i=0; i<s1.length(); i++) {
             c1[s1.charAt(i) - 'a']++;
         }
@@ -32,6 +34,7 @@ public class MakingAnagram {
         }
 
         return minCount;
+
     }
 
 }
