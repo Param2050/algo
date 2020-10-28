@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/string/GameOfThrones1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/searching/IceCreamParlor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/searching/SherlockAndArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +43,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hackerrank.searching" />
       <recent name="hackerrank.string" />
       <recent name="javapractice" />
       <recent name="string" />
       <recent name="arrays" />
-      <recent name="linkedlist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameOfThrones1">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.Anagram" />
+  <component name="RunManager" selected="Application.SherlockAndArray">
+    <configuration name="BeautifulBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.string.BeautifulBinaryString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeautifulBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.BeautifulBinaryString" />
+    <configuration name="FindSubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.FindSubArrayWithGivenSum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.MakingAnagram" />
+    <configuration name="IceCreamParlor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.searching.IceCreamParlor" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.string.*" />
+          <option name="PATTERN" value="hackerrank.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.string.PalindromeIndex" />
+    <configuration name="SherlockAndArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.searching.SherlockAndArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.string.*" />
+          <option name="PATTERN" value="hackerrank.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SherlockAndArray" />
+        <item itemvalue="Application.IceCreamParlor" />
+        <item itemvalue="Application.FindSubArrayWithGivenSum" />
         <item itemvalue="Application.GameOfThrones1" />
         <item itemvalue="Application.BeautifulBinaryString" />
-        <item itemvalue="Application.PalindromeIndex" />
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.MakingAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -202,38 +203,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599414366342" />
-    <state width="1323" height="219" key="GridCell.Tab.0.bottom" timestamp="1603812784501">
+    <state width="1323" height="296" key="GridCell.Tab.0.bottom" timestamp="1603878639131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603812784501" />
-    <state width="1323" height="219" key="GridCell.Tab.0.center" timestamp="1603812784500">
+    <state width="1323" height="296" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603878639131" />
+    <state width="1323" height="296" key="GridCell.Tab.0.center" timestamp="1603878639131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603812784500" />
-    <state width="1323" height="219" key="GridCell.Tab.0.left" timestamp="1603812784500">
+    <state width="1323" height="296" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603878639131" />
+    <state width="1323" height="296" key="GridCell.Tab.0.left" timestamp="1603878639131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603812784500" />
-    <state width="1323" height="219" key="GridCell.Tab.0.right" timestamp="1603812784500">
+    <state width="1323" height="296" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603878639131" />
+    <state width="1323" height="296" key="GridCell.Tab.0.right" timestamp="1603878639131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603812784500" />
-    <state width="1323" height="296" key="GridCell.Tab.1.bottom" timestamp="1603812543831">
+    <state width="1323" height="296" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603878639131" />
+    <state width="1323" height="296" key="GridCell.Tab.1.bottom" timestamp="1603878640828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603812543831" />
-    <state width="1323" height="296" key="GridCell.Tab.1.center" timestamp="1603812543831">
+    <state width="1323" height="296" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603878640828" />
+    <state width="1323" height="296" key="GridCell.Tab.1.center" timestamp="1603878640828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603812543831" />
-    <state width="1323" height="296" key="GridCell.Tab.1.left" timestamp="1603812543831">
+    <state width="1323" height="296" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603878640828" />
+    <state width="1323" height="296" key="GridCell.Tab.1.left" timestamp="1603878640828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603812543831" />
-    <state width="1323" height="296" key="GridCell.Tab.1.right" timestamp="1603812543831">
+    <state width="1323" height="296" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603878640828" />
+    <state width="1323" height="296" key="GridCell.Tab.1.right" timestamp="1603878640828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603812543831" />
+    <state width="1323" height="296" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603878640828" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1598290747927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -577,6 +578,26 @@
           <url>file://$PROJECT_DIR$/src/hackerrank/string/GameOfThrones1.java</url>
           <line>11</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/searching/SherlockAndArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/searching/SherlockAndArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/searching/SherlockAndArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/searching/SherlockAndArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
