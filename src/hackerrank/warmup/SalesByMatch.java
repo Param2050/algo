@@ -1,9 +1,10 @@
 package hackerrank.warmup;
 
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class SalesByMatch {
 
@@ -14,19 +15,16 @@ public class SalesByMatch {
         System.out.print(sockMerchant(n, arr));
     }
     static int sockMerchant(int n, int[] arr) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Set<Integer> set = new HashSet<>();
+        int count = 0;
         for(int i=0; i<n; i++) {
-            if(map.containsKey(arr[i])) {
-                map.put(arr[i], map.get(arr[i]) + 1);
-            }else {
-                map.put(arr[i], 1);
+            if(set.contains(arr[i])) {
+                count++;
+                set.remove(arr[i]);
+            } else {
+                set.add(arr[i]);
             }
         }
-        int maxNoPairs = 0;
-        for(Integer value : map.values()) {
-            maxNoPairs = maxNoPairs + (value)/2;
-        }
-        return maxNoPairs;
-
+        return count;
     }
 }
