@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/warmup/CountingValleys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/warmup/SalesByMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/warmup/SalesByMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +52,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SalesByMatch">
-    <configuration name="IceCreamParlor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.searching.IceCreamParlor" />
+  <component name="RunManager" selected="Application.CountingValleys">
+    <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.warmup.CountingValleys" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.searching.*" />
+          <option name="PATTERN" value="hackerrank.warmup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingValleys" />
         <item itemvalue="Application.SalesByMatch" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.MissingNumbers" />
         <item itemvalue="Application.SherlockAndArray" />
-        <item itemvalue="Application.IceCreamParlor" />
       </list>
     </recent_temporary>
   </component>
@@ -202,38 +202,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599414366342" />
-    <state width="1323" height="286" key="GridCell.Tab.0.bottom" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom" timestamp="1603979761328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.0.center" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603979761328" />
+    <state width="1323" height="286" key="GridCell.Tab.0.center" timestamp="1603979761328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.0.left" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603979761328" />
+    <state width="1323" height="286" key="GridCell.Tab.0.left" timestamp="1603979761328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.0.right" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603979761328" />
+    <state width="1323" height="286" key="GridCell.Tab.0.right" timestamp="1603979761328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.1.bottom" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603979761328" />
+    <state width="1323" height="286" key="GridCell.Tab.1.bottom" timestamp="1603979656835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.1.center" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603979656835" />
+    <state width="1323" height="286" key="GridCell.Tab.1.center" timestamp="1603979656835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.1.left" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603979656835" />
+    <state width="1323" height="286" key="GridCell.Tab.1.left" timestamp="1603979656835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
-    <state width="1323" height="286" key="GridCell.Tab.1.right" timestamp="1603971543327">
+    <state width="1323" height="286" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603979656835" />
+    <state width="1323" height="286" key="GridCell.Tab.1.right" timestamp="1603979656835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603971543327" />
+    <state width="1323" height="286" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603979656835" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1598290747927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -630,8 +630,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/warmup/SalesByMatch.java</url>
-          <line>28</line>
+          <line>27</line>
           <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/warmup/CountingValleys.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/warmup/CountingValleys.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/warmup/CountingValleys.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/warmup/CountingValleys.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
