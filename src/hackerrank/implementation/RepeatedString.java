@@ -9,12 +9,10 @@ public class RepeatedString {
     }
 
     static long repeatedString(String s, long n) {
-
         long q = n/s.length();
         long r = n%s.length();
         long partialStrLen = (r == 0) ? 0 : r;
         return q * getCharALengthCount(s, s.length()) + getCharALengthCount(s, partialStrLen);
-
     }
 
     static int getCharALengthCount(String s, long len) {
