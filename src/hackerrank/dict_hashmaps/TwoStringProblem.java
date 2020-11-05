@@ -1,4 +1,4 @@
-package hackerrank.string;
+package hackerrank.dict_hashmaps;
 
 
 // Not completed*********************************************

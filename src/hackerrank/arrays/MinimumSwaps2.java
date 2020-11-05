@@ -20,6 +20,7 @@ public class MinimumSwaps2 {
         }
 
         int swapCount = 0;
+
         for (int k = 1; k <= map.size(); k++) {
             int nextNode;
             if (isVisited[k] == false) {
