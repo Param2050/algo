@@ -1,6 +1,6 @@
-package linkedlist;
+package hackerrank.linkedlist;
 
-public class FindMiddle {
+public class DeleteAtGivenPosition {
     ListNode head;
 
     private class ListNode {
@@ -25,35 +25,34 @@ public class FindMiddle {
             System.out.print(curr.data + "->");
             curr = curr.next;
         }
+        System.out.println();
     }
 
-    private void findMiddle() {
-        ListNode slow = head;
-        ListNode fast = head;
-
-        if(head != null) {
-
-            while(fast != null && fast.next != null) {
-                slow = slow.next;
-                fast = fast.next.next;
+    private void deleteNodeAtGivenPosition(int position) {
+        if(head == null) {
+        } else {
+            ListNode currNode = head;
+            ListNode prevNode = null;
+            int i=0;
+            while(currNode.next != null && i<position) {
+                prevNode = currNode;
+                currNode = currNode.next;
+                i++;
             }
-            System.out.println("\n" + "Middle element is : " + slow.data);
+            prevNode.next = currNode.next;
         }
-
     }
 
     public static void main(String args[]) {
-        FindMiddle obj = new FindMiddle();
-        obj.push(6);
+        DeleteAtGivenPosition obj = new DeleteAtGivenPosition();
         obj.push(5);
         obj.push(4);
-        obj.push(3);
         obj.push(2);
         obj.push(1);
         obj.printList();
 
-        obj.findMiddle();
-
+        obj.deleteNodeAtGivenPosition(3);
+        obj.printList();
 
     }
 }

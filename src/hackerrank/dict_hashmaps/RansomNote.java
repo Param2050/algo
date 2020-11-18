@@ -52,7 +52,6 @@ public class RansomNote {
         else {
             System.out.println("No");
         }
-
     }
 
 }
