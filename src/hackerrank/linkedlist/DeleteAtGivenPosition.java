@@ -30,11 +30,14 @@ public class DeleteAtGivenPosition {
 
     private void deleteNodeAtGivenPosition(int position) {
         if(head == null) {
+        } else if(position == 0){
+            ListNode currNode = head;
+            head = currNode.next;
         } else {
             ListNode currNode = head;
             ListNode prevNode = null;
             int i=0;
-            while(currNode.next != null && i<position) {
+            while(currNode.next != null && position>i) {
                 prevNode = currNode;
                 currNode = currNode.next;
                 i++;
@@ -45,13 +48,16 @@ public class DeleteAtGivenPosition {
 
     public static void main(String args[]) {
         DeleteAtGivenPosition obj = new DeleteAtGivenPosition();
+        obj.push(18);
         obj.push(5);
-        obj.push(4);
-        obj.push(2);
-        obj.push(1);
+        obj.push(16);
+        obj.push(18);
+        obj.push(8);
+        obj.push(12);
+        obj.push(11);
         obj.printList();
 
-        obj.deleteNodeAtGivenPosition(3);
+        obj.deleteNodeAtGivenPosition(0);
         obj.printList();
 
     }
