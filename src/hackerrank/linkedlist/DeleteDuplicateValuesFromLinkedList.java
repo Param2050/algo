@@ -47,7 +47,6 @@ public class DeleteDuplicateValuesFromLinkedList {
         if(head == null) {
             return null;
         }
-
         ListNode prev = head;
         ListNode curr = head;
         while(curr != null && curr.next != null) {
