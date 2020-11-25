@@ -28,24 +28,6 @@ public class CompareTwoLinkedList {
         System.out.println();
     }
 
-//    private void deleteNodeAtGivenPosition(int position) {
-//        if(head == null) {
-//        } else if(position == 0){
-//            ListNode currNode = head;
-//            head = currNode.next;
-//        } else {
-//            ListNode currNode = head;
-//            ListNode prevNode = null;
-//            int i=0;
-//            while(currNode.next != null && position>i) {
-//                prevNode = currNode;
-//                currNode = currNode.next;
-//                i++;
-//            }
-//            prevNode.next = currNode.next;
-//        }
-//    }
-
     public static void main(String args[]) {
         CompareTwoLinkedList list1 = new CompareTwoLinkedList();
         CompareTwoLinkedList list2 = new CompareTwoLinkedList();
