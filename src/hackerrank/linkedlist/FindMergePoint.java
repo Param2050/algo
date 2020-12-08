@@ -1,6 +1,5 @@
 package hackerrank.linkedlist;
 
-import java.util.List;
 
 public class FindMergePoint {
     ListNode head;

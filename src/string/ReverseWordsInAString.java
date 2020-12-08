@@ -7,7 +7,7 @@ public class ReverseWordsInAString {
         String strArr[] = str.split(" ");
         String result = "";
         for(int i= strArr.length-1; i>=0 ; i--) {
-            result = result + " " + strArr[i];
+            result += strArr[i] + " ";
         }
         System.out.println("Reversed string is : " + result);
     }

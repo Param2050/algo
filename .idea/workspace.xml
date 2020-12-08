@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/threads/ExecuterServiceRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/linkedlist/CompareTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/linkedlist/CompareTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/DetectLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/AnagramString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/AnagramString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ReverseWordsInAString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +59,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMergePoint">
-    <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.doublylinklist.DLL" />
+  <component name="RunManager" selected="Application.DetectAndRemoveLoop">
+    <configuration name="DeleteAtGivenPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.DeleteAtGivenPosition" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.linkedlist.doublylinklist.*" />
+          <option name="PATTERN" value="hackerrank.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDuplicateValuesFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.DeleteDuplicateValuesFromLinkedList" />
+    <configuration name="DetectAndRemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectAndRemoveLoop" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.linkedlist.*" />
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectLoop" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertAtTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.doublylinklist.InsertAtTheEnd" />
+    <configuration name="GetNodeValueFromTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.GetNodeValueFromTail" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.linkedlist.doublylinklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertIntoSortedDLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.linkedlist.doublylinklist.InsertIntoSortedDLL" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hackerrank.linkedlist.doublylinklist.*" />
+          <option name="PATTERN" value="hackerrank.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectAndRemoveLoop" />
+        <item itemvalue="Application.DetectLoop" />
         <item itemvalue="Application.FindMergePoint" />
-        <item itemvalue="Application.InsertIntoSortedDLL" />
-        <item itemvalue="Application.InsertAtTheEnd" />
-        <item itemvalue="Application.DLL" />
-        <item itemvalue="Application.DeleteDuplicateValuesFromLinkedList" />
+        <item itemvalue="Application.DeleteAtGivenPosition" />
+        <item itemvalue="Application.GetNodeValueFromTail" />
       </list>
     </recent_temporary>
   </component>
@@ -187,10 +193,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Rotate linked list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597752858299">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597752858299" />
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601873387408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -207,42 +209,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599414366342" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1606323759752">
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1607442723943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606323759752" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1606323759752">
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607442723943" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1607442723942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606323759752" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1606323759752">
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607442723942" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1607442723942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606323759752" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1606323759752">
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607442723942" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1607442723942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606323759752" />
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1606323763949">
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607442723942" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1607442725417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606323763949" />
-    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1606323763949">
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607442725417" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1607442725417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606323763949" />
-    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1606323763948">
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607442725417" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1607442725417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606323763948" />
-    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1606323763949">
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607442725417" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1607442725417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606323763949" />
-    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1598290747927">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598290747926" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607442725417" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1599414373771">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -824,16 +822,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="237" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="238" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
           <line>37</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
@@ -841,11 +829,6 @@
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
           <line>38</line>
           <option name="timeStamp" value="240" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLinkedList.java</url>
@@ -914,53 +897,98 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>37</line>
+          <line>36</line>
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>56</line>
+          <line>55</line>
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>53</line>
+          <line>52</line>
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>60</line>
+          <line>59</line>
           <option name="timeStamp" value="263" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>66</line>
+          <line>65</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/FindMergePoint.java</url>
-          <line>69</line>
+          <line>68</line>
           <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/ReverseWordsInAString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/linkedlist/GetNodeValueFromTail.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DetectLoop.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="285" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

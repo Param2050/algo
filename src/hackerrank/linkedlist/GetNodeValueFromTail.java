@@ -39,17 +39,23 @@ public class GetNodeValueFromTail {
         System.out.println("Node value is : " + nodeValue);
     }
 
-    private int getNodeValue(int position) {
-        ListNode currNode = head;
-        int totalNodeCount = 0;
-        while (currNode != null) {
-            currNode = currNode.next;
-            totalNodeCount++;
+    private int getNodeValue(int n) {
+        int count = 0;
+        ListNode refPtr = head;
+        ListNode mainPtr = head;
+        if(head != null) {
+            while (count < n) {
+                if(refPtr == null) {
+                    return -1;
+                }
+                refPtr = refPtr.next;
+                count++;
+            }
+            while (refPtr != null) {
+                refPtr = refPtr.next;
+                mainPtr = mainPtr.next;
+            }
         }
-        currNode = head;
-        for(int i=0; i<(totalNodeCount-position-1); i++) {
-            currNode = currNode.next;
-        }
-        return currNode.data;
+        return mainPtr.data;
     }
 }

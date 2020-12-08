@@ -6,29 +6,24 @@ public class RemoveDuplicatesFromString {
 
     public static void main(String args[]) {
         String str = "geeksforgeeks";
-        System.out.println(removeDuplicatesFromString(str));
+        char arr [] = removeDuplicatesFromString(str);
+        System.out.println(arr);
     }
 
-    static char[] removeDuplicatesFromString(String string)
-    {
-        //table to keep track of visited characters
-        int[] table = new int[256];
+    static char[] removeDuplicatesFromString(String string) {
+
+        int NO_OF_CHARS = 26;
+        int[] table = new int[NO_OF_CHARS];
         char[] chars = string.toCharArray();
-
-        //to keep track of end index of resultant string
         int endIndex = 0;
-
-        for(int i = 0; i < chars.length; i++)
-        {
-            if(table[chars[i]] == 0)
-            {
-                table[chars[i]] = -1;
+        for(int i = 0; i < chars.length; i++) {
+            if(table[chars[i]-'a'] == 0) {
+                table[chars[i] - 'a'] = -1;
                 chars[endIndex++] = chars[i];
             }
         }
-
-//        String str = "geeksforgeeks";
         return Arrays.copyOfRange(chars, 0, endIndex);
+
     }
 
 }

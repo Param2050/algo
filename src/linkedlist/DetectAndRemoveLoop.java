@@ -21,13 +21,10 @@ public class DetectAndRemoveLoop {
 
     void printList() {
         ListNode curr = head;
-        ListNode prev = null;
         while(curr != null) {
             System.out.print(curr.data + " ->");
-            prev = curr;
             curr = curr.next;
         }
-        prev.next = head.next.next;
         System.out.println();
     }
 
@@ -68,8 +65,7 @@ public class DetectAndRemoveLoop {
         obj.push(2);
         obj.push(1);
 
-        obj.printList();;
-
+        obj.head.next.next.next.next.next = obj.head.next;
         obj.detectAndRemoveLoop();
 
         obj.printList();;

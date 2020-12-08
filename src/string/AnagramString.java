@@ -5,11 +5,11 @@ import java.util.Arrays;
 
 public class AnagramString {
 
-    static int NO_OF_CHARS = 256;
+    static int NO_OF_CHARS = 26;
 
     public static void main(String args[]) {
-        char str1[] = ("geeksforgeeks").toCharArray();
-        char str2[] = ("for").toCharArray();
+        char str1[] = ("vishalx").toCharArray();
+        char str2[] = ("shalvi").toCharArray();
 
         if (areAnagram(str1, str2))
             System.out.println("The two strings are"
@@ -30,9 +30,9 @@ public class AnagramString {
         int count2[] = new int[NO_OF_CHARS];
         Arrays.fill(count2, 0);
 
-        for(int i=0; i<str1.length && i<str2.length; i++) {
-            count1[str1[i]]++;
-            count2[str2[i]]++;
+        for(int i=0; i<str1.length; i++) {
+            count1[str1[i] - 'a']++;
+            count2[str2[i] - 'a']++;
         }
 
         for(int i=0; i<NO_OF_CHARS; i++) {

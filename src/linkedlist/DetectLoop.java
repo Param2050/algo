@@ -22,28 +22,29 @@ public class DetectLoop {
 
     private void printList() {
         ListNode curr = head;
-        ListNode prev = null;
         while(curr != null) {
             System.out.print(curr.data + " ->");
-            prev = curr;
             curr = curr.next;
         }
-        prev.next = head.next.next;
         System.out.println();
     }
 
     private void detectLoop() {
         ListNode slow = head;
         ListNode fast = head;
-
+        boolean flag = false;
         while(slow != null && fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-
             if(slow == fast) {
-                System.out.println("Loop found ");
+                flag = true;
                 break;
             }
+        }
+        if(flag){
+            System.out.println("Loop found");
+        }else {
+            System.out.println("No loop found");
         }
 
     }
@@ -59,7 +60,7 @@ public class DetectLoop {
         detectLoop.push(1);
 
         detectLoop.printList();
-
+        detectLoop.head.next.next.next.next.next = detectLoop.head.next;
         detectLoop.detectLoop();
 
     }
