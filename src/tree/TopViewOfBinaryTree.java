@@ -3,15 +3,15 @@ package tree;
 
 import java.util.*;
 
-public class PrintTreeInVerticalOrder {
+public class TopViewOfBinaryTree {
 
     TreeNode root;
-    PrintTreeInVerticalOrder() {
+    TopViewOfBinaryTree() {
         root = null;
     }
 
     public static void main(String args []) {
-        PrintTreeInVerticalOrder obj = new PrintTreeInVerticalOrder();
+        TopViewOfBinaryTree obj = new TopViewOfBinaryTree();
         obj.root = new TreeNode(10);
         obj.root.left = new TreeNode(2);
         obj.root.right = new TreeNode(3);
@@ -21,11 +21,11 @@ public class PrintTreeInVerticalOrder {
         obj.root.right.left = new TreeNode(12);
         obj.root.right.right.left = new TreeNode(14);
 
-        printTreeInVerticalOrder(obj.root);
+        printTopViewOfTree(obj.root);
 
     }
 
-    private static void printTreeInVerticalOrder(TreeNode root) {
+    private static void printTopViewOfTree(TreeNode root) {
         if(root == null) {
             return;
         }
@@ -59,10 +59,9 @@ public class PrintTreeInVerticalOrder {
 
         for(Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
             List<Integer> values = entry.getValue();
-            for(int i=0; i<values.size(); i++) {
-                System.out.print(values.get(i) + " ");
+            if(values.size() > 0) {
+                System.out.println(values.get(0));
             }
-            System.out.println();
         }
     }
 }
