@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/tree/BinaryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/tree/HeightOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/tree/LevelOrderTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeTraversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/tree/PrintLeftView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/tree/LevelOrderTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/tree/LevelOrderTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +53,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelOrderTree">
+  <component name="RunManager" selected="Application.PrintLeftView">
     <configuration name="DetectAndRemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.DetectAndRemoveLoop" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectLoop" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintLeftView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.tree.PrintLeftView" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeTraversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.TreeTraversals" />
       <module name="algorithms" />
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintLeftView" />
         <item itemvalue="Application.LevelOrderTree" />
         <item itemvalue="Application.HeightOfTree" />
         <item itemvalue="Application.TreeTraversals" />
         <item itemvalue="Application.DetectAndRemoveLoop" />
-        <item itemvalue="Application.DetectLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -202,46 +199,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="421" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1606323878175" />
-    <state x="389" y="108" key="FileChooserDialogImpl" timestamp="1599414366342">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1608141637125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599414366342" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1607618679938">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608141637125" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1608141637125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607618679938" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1607618679938">
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608141637125" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1608141637125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607618679938" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1607618679938">
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608141637125" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1608141637125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607618679938" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1607618679938">
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608141637125" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1607618870679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607618679938" />
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1607616423801">
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607618870679" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1607618870679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607616423801" />
-    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1607616423801">
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607618870679" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1607618870679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607616423801" />
-    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1607616423801">
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607618870679" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1607618870679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607616423801" />
-    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1607616423801">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607616423801" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1599414373771">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599414373771" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607618870679" />
     <state x="306" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604467608522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

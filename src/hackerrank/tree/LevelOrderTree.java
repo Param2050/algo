@@ -5,8 +5,14 @@ import java.util.Queue;
 
 public class LevelOrderTree {
 
+    BinaryNode root;
+    LevelOrderTree() {
+        root = null;
+    }
+
+
     public static void main(String args []) {
-        HeightOfTree obj = new HeightOfTree();
+        LevelOrderTree obj = new LevelOrderTree();
         obj.root = new BinaryNode(1);
         obj.root.left = new BinaryNode(2);
         obj.root.right = new BinaryNode(3);
