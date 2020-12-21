@@ -4,49 +4,43 @@ package tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PrintLeftView {
+public class CheckTreeIsBst {
 
     TreeNode root;
-    PrintLeftView() {
+    CheckTreeIsBst() {
         root = null;
     }
 
     public static void main(String args []) {
-        PrintLeftView obj = new PrintLeftView();
-        obj.root = new TreeNode(10);
+        CheckTreeIsBst obj = new CheckTreeIsBst();
+        obj.root = new TreeNode(4);
         obj.root.left = new TreeNode(2);
-        obj.root.right = new TreeNode(3);
-        obj.root.left.left = new TreeNode(7);
-        obj.root.left.right = new TreeNode(8);
-        obj.root.right.right = new TreeNode(15);
-        obj.root.right.left = new TreeNode(12);
-        obj.root.right.right.left = new TreeNode(14);
+        obj.root.right = new TreeNode(5);
+        obj.root.left.left = new TreeNode(1);
+        obj.root.left.right = new TreeNode(3);
 
-        printLeftView(obj.root);
+        if(checkIfBst(obj.root)) {
+            System.out.println("BST");
+        }else {
+            System.out.println("Not BST");
+        }
 
     }
 
-    private static void printLeftView(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.add(root);
+    private static boolean checkIfBst(TreeNode root) {
+        return isBstUtil(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
 
-        while (!queue.isEmpty()) {
+    private static boolean isBstUtil(TreeNode root, int min, int max) {
 
-            int n = queue.size();
-            for(int i=1; i<=n; i++) {
-                TreeNode tempNode = queue.poll();
-                if(i == 1) {
-                    System.out.print(tempNode.key + " ");
-                }
-
-                if (tempNode.left != null) {
-                    queue.add(tempNode.left);
-                }
-
-                if (tempNode.right != null) {
-                    queue.add(tempNode.right);
-                }
-            }
+        if(root == null) {
+            return true;
         }
+
+        if(root.key < min || root.key > max) {
+            return false;
+        }
+
+        return isBstUtil(root.left, min, root.key-1) && isBstUtil(root.right, root.key+1, max);
     }
 }
