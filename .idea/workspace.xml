@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/BalancedBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/java/LamdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +37,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jar_files/guava-29.0-jre.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/collector" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode" />
       <recent name="hackerrank.tree" />
       <recent name="tree" />
       <recent name="hackerrank.linkedlist" />
       <recent name="hackerrank.linkedlist.doublylinklist" />
-      <recent name="hackerrank.dict_hashmaps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextGreaterElement">
+  <component name="RunManager" selected="Application.PalindromeCheck">
     <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stackandqueue.BalancedBrackets" />
       <module name="algorithms" />
@@ -67,25 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckTreeIsBst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.CheckTreeIsBst" />
+    <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.java.LamdaTest" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderInSpiralForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.LevelOrderInSpiralForm" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="practice.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.PalindromeCheck" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeCheck" />
+        <item itemvalue="Application.LamdaTest" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.BalancedBrackets" />
         <item itemvalue="Application.LowestCommonAncestor" />
-        <item itemvalue="Application.LevelOrderInSpiralForm" />
-        <item itemvalue="Application.CheckTreeIsBst" />
       </list>
     </recent_temporary>
   </component>
@@ -199,38 +201,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="421" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1606323878175" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1608740616832">
+    <state x="463" y="84" key="FileChooserDialogImpl" timestamp="1609565966660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608740616832" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1608740616832">
+    <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1609817420480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608740616832" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1608740616832">
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609817420480" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1609817420480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608740616832" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1608740616832">
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609817420480" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1609817420480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608740616832" />
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1608740289951">
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609817420480" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1609817420480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608740289951" />
-    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1608740289950">
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609817420480" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1609817421671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608740289950" />
-    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1608740289950">
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609817421671" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1609817421671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608740289950" />
-    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1608740289951">
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609817421670" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1609817421670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608740289951" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609817421670" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1609817421671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609817421671" />
+    <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="69" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1608887222166" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1608893160386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608893160386" />
     <state x="306" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604467608522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -239,14 +253,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606321658613" />
+    <state x="65" y="0" key="new project wizard" timestamp="1608893346798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608893346798" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1605887383582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605887383582" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606129665772">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609671859375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606129665772" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609671859375" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1155,6 +1173,36 @@
           <url>file://$PROJECT_DIR$/src/stackandqueue/NextGreaterElement.java</url>
           <line>19</line>
           <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/PalindromeCheck.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="332" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

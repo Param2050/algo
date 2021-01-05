@@ -1,5 +1,7 @@
 package linkedlist;
 
+import java.util.List;
+
 public class PalindromeCheck {
     ListNode head;
     ListNode secondHalf;
@@ -20,57 +22,32 @@ public class PalindromeCheck {
         head = new_node;
     }
 
-    private void printList() {
-        ListNode curr = head;
-        while(curr != null) {
-            System.out.print(curr.data + "->");
-            curr = curr.next;
-        }
-    }
-
-    private boolean checkPalindrome() {
+    private boolean checkPalindrome(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
-        ListNode prev_slow_ptr = null;
 
         while (fast != null && fast.next != null) {
-            prev_slow_ptr = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        if(fast != null) {
-            slow = slow.next;
-        }
+        slow = reverse(slow);
+        fast = head;
 
-        secondHalf = slow;
-        prev_slow_ptr.next = null;
-        reverse();
-
-        boolean res = comparePaliandrome(head, secondHalf);
-        return res;
-    }
-
-    private boolean comparePaliandrome(ListNode first, ListNode second) {
-
-        while(first != null && second != null) {
-            if(first.data == second.data) {
-                first = first.next;
-                second = second.next;
-            } else {
+        while (slow != null) {
+            if(slow.data != fast.data) {
                 return false;
             }
+
+            slow = slow.next;
+            fast = fast.next;
+
         }
-
-        if(first == null && second == null)
-            return true;
-
-
-        return false;
+        return true;
     }
 
-    private void reverse() {
-        ListNode curr = secondHalf;
+    private ListNode reverse(ListNode head) {
+        ListNode curr = head;
         ListNode prev = null;
         ListNode nextP = null;
 
@@ -80,7 +57,7 @@ public class PalindromeCheck {
             prev = curr;
             curr = nextP;
         }
-        secondHalf = prev;
+        return prev;
     }
 
 
@@ -88,14 +65,13 @@ public class PalindromeCheck {
     public static void main(String args[]) {
         PalindromeCheck obj = new PalindromeCheck();
 
-        obj.push('a');
-        obj.push('b');
-        obj.push('c');
-        obj.push('c');
-        obj.push('b');
-        obj.push('a');
+        obj.push('5');
+        obj.push('4');
+        obj.push('3');
+        obj.push('4');
+        obj.push('5');
 
-        if(obj.checkPalindrome()) {
+        if(obj.checkPalindrome(obj.head)) {
             System.out.println("Parlindrome");
         } else {
             System.out.println("Not parlindrome");
