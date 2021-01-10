@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/PlusOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +54,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOne">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ContainsDuplicate" />
+  <component name="RunManager" selected="Application.LargestSumCongtiguousSubArray">
+    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.FirstUniqueCharacterInString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FirstUniqueCharacterInString" />
+    <configuration name="LargestSumCongtiguousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LargestSumCongtiguousSubArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSumCongtiguousSubArray" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.FirstUniqueCharacterInString" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.ContainsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -204,38 +204,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1610211386193">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1610258450864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610211386193" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1610211386193">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610258450864" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1610258450864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610211386193" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1610211386192">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610258450864" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1610258450863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610211386192" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1610211386193">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610258450863" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1610258450864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610211386193" />
-    <state width="1323" height="185" key="GridCell.Tab.1.bottom" timestamp="1610211386183">
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610258450864" />
+    <state width="1323" height="204" key="GridCell.Tab.1.bottom" timestamp="1610258452243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610211386183" />
-    <state width="1323" height="185" key="GridCell.Tab.1.center" timestamp="1610211386183">
+    <state width="1323" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610258452243" />
+    <state width="1323" height="204" key="GridCell.Tab.1.center" timestamp="1610258452242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610211386183" />
-    <state width="1323" height="185" key="GridCell.Tab.1.left" timestamp="1610211386183">
+    <state width="1323" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610258452242" />
+    <state width="1323" height="204" key="GridCell.Tab.1.left" timestamp="1610258452242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610211386183" />
-    <state width="1323" height="185" key="GridCell.Tab.1.right" timestamp="1610211386183">
+    <state width="1323" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610258452242" />
+    <state width="1323" height="204" key="GridCell.Tab.1.right" timestamp="1610258452242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610211386183" />
+    <state width="1323" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610258452242" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1210,13 +1210,78 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
-          <line>27</line>
+          <line>24</line>
           <option name="timeStamp" value="347" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
-          <line>26</line>
+          <line>23</line>
           <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/PlusOne.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestSumCongtiguousSubArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="363" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

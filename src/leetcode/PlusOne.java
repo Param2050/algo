@@ -1,31 +1,28 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class PlusOne {
 
     public static void main(String args[]) {
-        int arr[] = new int[] {4,3,2,1};
-//        int arr[] = new int[] {4,3,2,9};
+        int arr[] = new int[] {9,9,9};
         int result [] = new PlusOne().plusOne(arr);
         System.out.println(result);
     }
 
     public int[] plusOne(int[] digits) {
+        int len = digits.length;
 
-        List<Integer> list = new ArrayList<>();
-        int sum = 0;
-        int carry = 0;
-        for(int i=digits.length-1; i>=0; i--) {
-
-            sum = digits[i] + 1;
-
-
+        for(int i=len-1; i>= 0; i--) {
+            if(digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            }
+            digits[i] = 0;
         }
 
-
-        return null;
+        int newArr[] = new int[len+1];
+        newArr[0] = 1;
+        return newArr;
     }
 
 }

@@ -6,29 +6,18 @@ public class LargestSumCongtiguousSubArray {
         new LargestSumCongtiguousSubArray().findSubArray(arr);
     }
 
-    private void findSubArray(int arr[]) {
-        int curr_sum = 0;
-        int max_so_far = 0;
 
-        // iterate each element of an array
-        for(int i=0; i<arr.length; i++) {
-            curr_sum = curr_sum + arr[i];
+//    -2, -3, 4, -1, -2, 1, 5, -3
+    private void findSubArray(int nums[]) {
+        int currSum = nums[0];
+        int maxSum = currSum;
 
-            // Set curr_sum as zero if curr_sum is negative
-            // Means we need only positive integers
-
-            if(curr_sum < 0 ){
-                curr_sum = 0;
-            }
-            // If curr_sum is greater than max_so_far
-            // then update max_so_far with the value of curr_sum
-            else if(max_so_far < curr_sum) {
-                max_so_far = curr_sum;
-            }
-
+        for(int i=1; i<nums.length; i++) {
+            currSum = Math.max(nums[i], nums[i] + currSum);
+            maxSum = Math.max(currSum, maxSum);
         }
 
-        System.out.println("Largest Sum Contiguous SubArray is " + max_so_far);
+        System.out.println("Largest Sum Contiguous SubArray is " + maxSum);
 
     }
 
