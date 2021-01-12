@@ -6,7 +6,7 @@ import java.util.Deque;
 public class BalancedBrackets {
 
     public static void main(String args[]) {
-        String expr = "([{}])";
+        String expr = "()";
         if(isBalancedBrackets(expr)) {
             System.out.println("Balanced expression !!");
         }else {
