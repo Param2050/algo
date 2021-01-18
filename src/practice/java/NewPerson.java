@@ -1,16 +1,17 @@
 package practice.java;
 
-public class Person {
+public class NewPerson {
+
     String name;
     Integer age;
 
-    public Person(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
+//    public NewPerson(String name, Integer age) {
+//        this.name = name;
+//        this.age = age;
+//    }
 
     public static void main(String args[]) {
-        Person person = new Person("Param", 30);
+        NewPerson person = new NewPerson();
         System.out.println("Name : " + person.name);
         System.out.println("Age : " + person.age);
     }
