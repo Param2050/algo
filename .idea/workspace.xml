@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FindDuplicatesInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/java/NewPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapractice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapractice/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +54,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicatesInArray">
-    <configuration name="ExcelSheetColumnNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ExcelSheetColumnNumber" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacter">
     <configuration name="FindDuplicatesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.FindDuplicatesInArray" />
       <module name="algorithms" />
@@ -82,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MergeTwoSortedArray" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubstringWithoutRepeatingCharacter" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.Practice" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.FindDuplicatesInArray" />
         <item itemvalue="Application.NewPerson" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.MergeTwoSortedArray" />
-        <item itemvalue="Application.ExcelSheetColumnNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -205,38 +204,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1610983896672">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1611116804188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610983896672" />
-    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1610983896672">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611116804188" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1611116804188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610983896672" />
-    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1610983896672">
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611116804188" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1611116804187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610983896672" />
-    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1610983896672">
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611116804187" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1611116804188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610983896672" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1610983898001">
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611116804188" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1611116805308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610983898001" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1610983898001">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611116805308" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1611116805307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610983898001" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1610983898001">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611116805307" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1611116805307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610983898001" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1610983898001">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611116805307" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1611116805307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610983898001" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611116805307" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -426,38 +425,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>18</line>
+          <line>10</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/string/SeparateNumbers.java</url>
@@ -1393,6 +1362,21 @@
           <url>file://$PROJECT_DIR$/src/leetcode/FindDuplicatesInArray.java</url>
           <line>27</line>
           <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LongestSubstringWithoutRepeatingCharacter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LongestSubstringWithoutRepeatingCharacter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LongestSubstringWithoutRepeatingCharacter.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="390" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
