@@ -7,12 +7,8 @@ import java.util.List;
 
 public class LamdaTest {
     public static void main(String args[]) {
-        List<Person> personList = new ArrayList<Person>() {
-            {
-                add(new Person("Param", 32));
-                add(new Person("Bharti", 34));
-            }
-        };
+        int arr[] = new int[]{1,2,3,4};
+        System.out.println(Arrays.toString(arr));
 
     }
 }
