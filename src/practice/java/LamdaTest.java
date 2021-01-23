@@ -1,14 +1,17 @@
 package practice.java;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class LamdaTest {
     public static void main(String args[]) {
-        int arr[] = new int[]{1,2,3,4};
-        System.out.println(Arrays.toString(arr));
+        HashMap<NewPerson, String> map = new HashMap<>();
+        map.put(new NewPerson("Love City", "Param"), "First Book");
+        map.put(new NewPerson("Love City", "Param"), "Second Book");
 
+        for (Map.Entry<NewPerson, String> entry : map.entrySet()) {
+            System.out.println(entry.getValue());
+        }
     }
 }

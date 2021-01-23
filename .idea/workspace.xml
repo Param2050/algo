@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ProductOfArrayExceptItself.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SpiralMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practice/java/LamdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/java/LamdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/java/NewPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/java/NewPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/java/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +57,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LamdaTest">
-    <configuration name="FindDuplicatesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FindDuplicatesInArray" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SpiralMatrix">
     <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.java.LamdaTest" />
       <module name="algorithms" />
@@ -94,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractice.Practice" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeIntervals" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractice.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SpiralMatrix" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.LamdaTest" />
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.ProductOfArrayExceptItself" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.FindDuplicatesInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +195,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610598946308" />
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1611243489450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611243489450" />
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608221671868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -204,38 +211,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611131431205">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611383660805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611131431205" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611131431205">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611383660805" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611383660805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611131431205" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611131431205">
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611383660805" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611383660805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611131431205" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611131431205">
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611383660805" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611383660805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611131431205" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1611119629652">
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611383660805" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1611171534232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611119629652" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1611119629652">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611171534232" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1611171534232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611119629652" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1611119629652">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611171534232" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1611171534232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611119629652" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1611119629652">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611171534232" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1611171534232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611119629652" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611171534232" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,6 +259,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606321658613" />
+    <state x="0" y="0" width="709" height="728" key="find.popup" timestamp="1611243436596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="709" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1611243436596" />
     <state x="65" y="0" key="new project wizard" timestamp="1608893346798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,10 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605887383582" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610536862956">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611243414856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610536862956" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611243414856" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1397,6 +1408,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/ProductOfArrayExceptItself.java</url>
           <line>26</line>
           <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MergeIntervals.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/MergeIntervals.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="399" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
