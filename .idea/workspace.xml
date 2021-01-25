@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/CountTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountTriplets">
+  <component name="RunManager" selected="Application.MergeTwoSortedArrayWithO1ExtraSpace">
     <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.CountTriplets" />
       <module name="algorithms" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.java.LamdaTest" />
+    <configuration name="LongestPalindromeSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestPalindromeSubString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.java.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromeSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongestPalindromeSubString" />
+    <configuration name="MergeTwoSortedArrayWithO1ExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MergeTwoSortedArrayWithO1ExtraSpace" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedArrayWithO1ExtraSpace" />
         <item itemvalue="Application.CountTriplets" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.LongestPalindromeSubString" />
         <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.LamdaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,46 +199,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608221671868" />
-    <state width="421" height="466" key="DebuggerActiveHint" timestamp="1606323878175">
+    <state width="421" height="466" key="DebuggerActiveHint" timestamp="1611508661938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="421" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1606323878175" />
+    <state width="421" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1611508661938" />
     <state x="463" y="84" key="FileChooserDialogImpl" timestamp="1609565966660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
-    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1611502344993">
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611502344993" />
-    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1611502344993">
+    <state width="1323" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611502344993" />
-    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
-    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
-    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
-    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611502344994">
+    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611508754149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611502344994" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1465,6 +1464,36 @@
           <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
           <line>8</line>
           <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="430" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
