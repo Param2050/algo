@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/PythagoreanTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +53,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PythagoreanTriplet">
-    <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CountTriplets" />
+  <component name="RunManager" selected="Application.RemoveConsecutiveDuplicatesFromString">
+    <configuration name="ConvertArrayToZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ConvertArrayToZigZagArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArrayWithO1ExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeTwoSortedArrayWithO1ExtraSpace" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LongestPalindromicSubstring" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReArrangeArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ReArrangeArrayAlternatively" />
+    <configuration name="RemoveConsecutiveDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RemoveConsecutiveDuplicatesFromString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Sort012" />
+    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseWordsInAString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveConsecutiveDuplicatesFromString" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.ReverseWordsInAString" />
+        <item itemvalue="Application.ConvertArrayToZigZagArray" />
         <item itemvalue="Application.PythagoreanTriplet" />
-        <item itemvalue="Application.Sort012" />
-        <item itemvalue="Application.ReArrangeArrayAlternatively" />
-        <item itemvalue="Application.MergeTwoSortedArrayWithO1ExtraSpace" />
-        <item itemvalue="Application.CountTriplets" />
       </list>
     </recent_temporary>
   </component>
@@ -207,38 +207,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611559427474">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611638972954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611559427474" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611559427474">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611638972954" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611638972953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611559427474" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611559427473">
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611638972953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611559427473" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611559427474">
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611638972953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611559427474" />
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611508754149">
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611638899472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
-    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611508754149">
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
+    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611638899472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
-    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611508754149">
+    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
+    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611638899472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
-    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611508754149">
+    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611638899472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611508754149" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1494,6 +1494,26 @@
           <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
           <line>7</line>
           <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/ReverseWordsInAString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="445" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
