@@ -15,12 +15,9 @@ public class RemoveConsecutiveDuplicatesFromString {
         char arr[] = string.toCharArray();
         int n = arr.length;
 
-        if(n < 2) {
-            return;
-        }
 
         int j=0;
-
+        //aaabccddd
         for(int i=1; i<n; i++) {
 
             if(arr[j] != arr[i]) {
