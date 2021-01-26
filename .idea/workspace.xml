@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/java/LamdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/java/LamdaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveConsecutiveDuplicatesFromString">
-    <configuration name="ConvertArrayToZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ConvertArrayToZigZagArray" />
+  <component name="RunManager" selected="Application.RemoveAllAdjacentDuplicates">
+    <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.java.LamdaTest" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="practice.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PythagoreanTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.PythagoreanTriplet" />
+    <configuration name="RemoveAllAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RemoveAllAdjacentDuplicates" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAllAdjacentDuplicates" />
+        <item itemvalue="Application.LamdaTest" />
         <item itemvalue="Application.RemoveConsecutiveDuplicatesFromString" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.ReverseWordsInAString" />
-        <item itemvalue="Application.ConvertArrayToZigZagArray" />
-        <item itemvalue="Application.PythagoreanTriplet" />
       </list>
     </recent_temporary>
   </component>
@@ -207,42 +208,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611638972954">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1611641196322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611638972954" />
-    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611638972953">
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611641196322" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1611641196321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
-    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611638972953">
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611641196321" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1611641196321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
-    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611638972953">
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611641196321" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1611641196322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611638972953" />
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611638899472">
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611641196322" />
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611641106170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
-    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611638899472">
+    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611641106170" />
+    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611641106170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
-    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611638899472">
+    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611641106170" />
+    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611641106170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
-    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611638899472">
+    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611641106170" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611641106170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611638899472" />
+    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611641106170" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="350" y="69" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1608887222166" />
+    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1611639867108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611639867108" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1608893160386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1514,6 +1519,21 @@
           <url>file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java</url>
           <line>44</line>
           <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/java/LamdaTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/java/LamdaTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/java/LamdaTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="448" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

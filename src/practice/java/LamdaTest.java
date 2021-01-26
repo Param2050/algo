@@ -6,12 +6,9 @@ import java.util.Map;
 
 public class LamdaTest {
     public static void main(String args[]) {
-        HashMap<NewPerson, String> map = new HashMap<>();
-        map.put(new NewPerson("Love City", "Param"), "First Book");
-        map.put(new NewPerson("Love City", "Param"), "Second Book");
-
-        for (Map.Entry<NewPerson, String> entry : map.entrySet()) {
-            System.out.println(entry.getValue());
-        }
+        int len = 2;
+        int result = len-- -1;
+        System.out.println("Result " + result);
+        System.out.println("Len " + len);
     }
 }
