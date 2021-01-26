@@ -8,8 +8,8 @@ public class AnagramString {
     static int NO_OF_CHARS = 26;
 
     public static void main(String args[]) {
-        char str1[] = ("vishalx").toCharArray();
-        char str2[] = ("shalvi").toCharArray();
+        String str1 = "vishalx";
+        String str2 = "shalxiv";
 
         if (areAnagram(str1, str2))
             System.out.println("The two strings are"
@@ -19,26 +19,22 @@ public class AnagramString {
                     + " anagram of each other");
     }
 
-    private static boolean areAnagram(char str1[], char str2[]) {
+    private static boolean areAnagram(String s, String t) {
 
-        if(str1.length != str2.length)
+        if(s.length() != t.length())
             return false;
 
-        int count1[] = new int[NO_OF_CHARS];
-        Arrays.fill(count1, 0);
+        int len = 26;
+        int arr[] = new int[len];
 
-        int count2[] = new int[NO_OF_CHARS];
-        Arrays.fill(count2, 0);
-
-        for(int i=0; i<str1.length; i++) {
-            count1[str1[i] - 'a']++;
-            count2[str2[i] - 'a']++;
+        for(int i=0; i<s.length(); i++) {
+            arr[s.charAt(i) - 'a']++;
+            arr[t.charAt(i) - 'a']--;
         }
 
-        for(int i=0; i<NO_OF_CHARS; i++) {
-            if(count1[i] != count2[i]) {
+        for(int c : arr) {
+            if(c != 0)
                 return false;
-            }
         }
 
         return true;
