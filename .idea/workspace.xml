@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/RemoveConsecutiveDuplicatesFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveConsecutiveDuplicatesFromString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapractice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapractice/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/collector" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/HawkEye" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,13 +53,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesFromString">
-    <configuration name="AnagramString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.AnagramString" />
+  <component name="RunManager" selected="Application.ReverseArrayWithGivenGroupSize">
+    <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CountTriplets" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.java.LamdaTest" />
+    <configuration name="FindAnMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.FindAnMissingNumber" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.java.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RemoveAllAdjacentDuplicates" />
+    <configuration name="MergeTwoSortedArrayWithO1ExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MergeTwoSortedArrayWithO1ExtraSpace" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveConsecutiveDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RemoveConsecutiveDuplicatesFromString" />
+    <configuration name="ReArrangeArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ReArrangeArrayAlternatively" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RemoveDuplicatesFromString" />
+    <configuration name="ReverseArrayWithGivenGroupSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ReverseArrayWithGivenGroupSize" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicatesFromString" />
-        <item itemvalue="Application.RemoveConsecutiveDuplicatesFromString" />
-        <item itemvalue="Application.AnagramString" />
-        <item itemvalue="Application.RemoveAllAdjacentDuplicates" />
-        <item itemvalue="Application.LamdaTest" />
+        <item itemvalue="Application.ReverseArrayWithGivenGroupSize" />
+        <item itemvalue="Application.ReArrangeArrayAlternatively" />
+        <item itemvalue="Application.MergeTwoSortedArrayWithO1ExtraSpace" />
+        <item itemvalue="Application.FindAnMissingNumber" />
+        <item itemvalue="Application.CountTriplets" />
       </list>
     </recent_temporary>
   </component>
@@ -204,58 +203,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="421" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1611508661938" />
-    <state x="463" y="84" key="FileChooserDialogImpl" timestamp="1609565966660">
+    <state x="463" y="84" key="FileChooserDialogImpl" timestamp="1612248447817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609565966660" />
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1611646568330">
+    <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612248447817" />
+    <state width="1323" height="57" key="GridCell.Tab.0.bottom" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611646568330" />
-    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1611646568330">
+    <state width="1323" height="57" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.0.center" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611646568330" />
-    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1611646568330">
+    <state width="1323" height="57" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.0.left" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611646568330" />
-    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1611646568330">
+    <state width="1323" height="57" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.0.right" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611646568330" />
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom" timestamp="1611646569591">
+    <state width="1323" height="57" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.1.bottom" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611646569591" />
-    <state width="1323" height="258" key="GridCell.Tab.1.center" timestamp="1611646569591">
+    <state width="1323" height="57" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.1.center" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611646569591" />
-    <state width="1323" height="258" key="GridCell.Tab.1.left" timestamp="1611646569591">
+    <state width="1323" height="57" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.1.left" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611646569591" />
-    <state width="1323" height="258" key="GridCell.Tab.1.right" timestamp="1611646569591">
+    <state width="1323" height="57" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
+    <state width="1323" height="57" key="GridCell.Tab.1.right" timestamp="1613450253734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="258" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611646569591" />
+    <state width="1323" height="57" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1613450253734" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="350" y="69" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1608887222166" />
-    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1611639867108">
+    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1613575112766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611639867108" />
+    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613575112766" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1608893160386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608893160386" />
-    <state x="306" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604467608522">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="306" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1604467608522" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606321658613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -434,11 +429,6 @@
           <url>file://$PROJECT_DIR$/src/hackerrank/string/Anagram.java</url>
           <line>34</line>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerrank/string/SeparateNumbers.java</url>
@@ -1442,58 +1432,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="420" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="421" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="422" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="423" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/CountTriplets.java</url>
           <line>8</line>
           <option name="timeStamp" value="424" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="425" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="426" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="427" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="428" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="429" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="430" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/ReverseWordsInAString.java</url>
@@ -1569,6 +1509,96 @@
           <url>file://$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java</url>
           <line>14</line>
           <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DetectAndRemoveLoop.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/MergeTwoSortedArrayWithO1ExtraSpace.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="479" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

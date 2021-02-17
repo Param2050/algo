@@ -13,3 +13,4 @@ gradlew
 *.iml
 *.ipr
 /out/
+/.idea
