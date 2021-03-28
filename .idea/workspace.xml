@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Rotated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackandqueue/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackandqueue/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/RemoveConsecutiveDuplicatesFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveConsecutiveDuplicatesFromString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +54,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
-    <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CountTriplets" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Rotated">
     <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.KthLargestElement" />
       <module name="algorithms" />
@@ -124,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Rotated" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rotated" />
+        <item itemvalue="Application.RemoveAllAdjacentDuplicates" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.KthLargestElement" />
-        <item itemvalue="Application.RemoveAllAdjacentDuplicates" />
-        <item itemvalue="Application.CountTriplets" />
       </list>
     </recent_temporary>
   </component>
@@ -208,38 +204,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615371169776" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1616934907791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1616868426840">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1616934907791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616868426840" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1616868426840">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1616934907790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616868426840" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616934907790" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1616934907791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1616934909630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
-    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1616934909630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
-    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1616934909630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
-    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1616868426841">
+    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1616934909630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616868426841" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1598,26 +1594,6 @@
           <option name="timeStamp" value="479" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="482" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="483" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="484" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="485" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java</url>
           <line>42</line>
           <option name="timeStamp" value="486" />
@@ -1741,6 +1717,46 @@
           <url>file://$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java</url>
           <line>37</line>
           <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Rotated.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="527" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
