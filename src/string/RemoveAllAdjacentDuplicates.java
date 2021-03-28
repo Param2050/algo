@@ -3,7 +3,7 @@ package string;
 public class RemoveAllAdjacentDuplicates {
 
     public static void main(String[] args) {
-        String str = "acaaabbbacdddd";
+        String str = "abbaca";
         String res = new RemoveAllAdjacentDuplicates().removeDuplicates(str);
         System.out.println("Resulted String :" + res);
     }
