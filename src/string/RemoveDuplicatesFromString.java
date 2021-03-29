@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RemoveDuplicatesFromString {
 
     public static void main(String args[]) {
-        String str = "geeksforgeeks";
+        String str = "param";
         String res = removeDuplicatesFromString(str);
         System.out.println(res);
     }

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/Rotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveAllAdjacentDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RemoveDuplicatesFromString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Rotated">
-    <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.KthLargestElement" />
+  <component name="RunManager" selected="Application.LongestCommonSubsequence (1)">
+    <configuration name="LongestCommonSubsequence (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestCommonSubsequence" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,25 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.LongestPalindromicSubstring" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.LongestCommonSubsequence" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Permutation" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +84,19 @@
     </configuration>
     <configuration name="RemoveAllAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.RemoveAllAdjacentDuplicates" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RemoveDuplicatesFromString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence (1)" />
+        <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.RemoveDuplicatesFromString" />
         <item itemvalue="Application.Rotated" />
         <item itemvalue="Application.RemoveAllAdjacentDuplicates" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.KthLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -204,38 +205,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615371169776" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1616934907791">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1617005222741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1616934907791">
+    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617005222741" />
+    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1617005222741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1616934907790">
+    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617005222741" />
+    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1617005222741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616934907790" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1616934907791">
+    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617005222741" />
+    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1617005222741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616934907791" />
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1616934909630">
+    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617005222741" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1616949559549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
-    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1616934909630">
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616949559549" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1616949559548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
-    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1616934909630">
+    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616949559548" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1616949559548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
-    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1616934909630">
+    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616949559548" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1616949559548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616934909630" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616949559548" />
     <state x="350" y="69" key="NewModule_or_Project.wizard" timestamp="1608887222166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
