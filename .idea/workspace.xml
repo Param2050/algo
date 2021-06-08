@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/NearestGreatestToLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackandqueue/NearestSmallerElementToLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackandqueue/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/linkedlist/DetectAndRemoveLoop$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/linkedlist/DetectAndRemoveLoop$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/linkedlist/DetectAndRemoveLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/linkedlist/DetectAndRemoveLoop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NearestSmallerElementToLeft">
+  <component name="RunManager" selected="Application.StockSpanProblem">
     <configuration name="FindMissingAndRepeatingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.FindMissingAndRepeatingNumber" />
       <module name="algorithms" />
@@ -109,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Sort012" />
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackandqueue.StockSpanProblem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="stackandqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.NearestSmallerElementToLeft" />
         <item itemvalue="Application.NearestGreatestToLeft" />
         <item itemvalue="Application.FindMissingAndRepeatingNumber" />
         <item itemvalue="Application.LargestNumberFormedFromAnArray" />
-        <item itemvalue="Application.Sort012" />
       </list>
     </recent_temporary>
   </component>
@@ -198,38 +195,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="84" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615371169776" />
-    <state width="661" height="223" key="GridCell.Tab.0.bottom" timestamp="1622994833358">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1623150467008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1622994833358" />
-    <state width="661" height="223" key="GridCell.Tab.0.center" timestamp="1622994833358">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623150467008" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1623150467008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1622994833358" />
-    <state width="661" height="223" key="GridCell.Tab.0.left" timestamp="1622994833357">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1623150467008" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1623150467007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1622994833357" />
-    <state width="661" height="223" key="GridCell.Tab.0.right" timestamp="1622994833358">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1623150467007" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1623150467008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1622994833358" />
-    <state width="1323" height="252" key="GridCell.Tab.1.bottom" timestamp="1622829057744">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623150467008" />
+    <state width="1323" height="270" key="GridCell.Tab.1.bottom" timestamp="1623150441460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="252" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1622829057744" />
-    <state width="1323" height="252" key="GridCell.Tab.1.center" timestamp="1622829057743">
+    <state width="1323" height="270" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623150441460" />
+    <state width="1323" height="270" key="GridCell.Tab.1.center" timestamp="1623150441460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="252" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1622829057743" />
-    <state width="1323" height="252" key="GridCell.Tab.1.left" timestamp="1622829057743">
+    <state width="1323" height="270" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1623150441460" />
+    <state width="1323" height="270" key="GridCell.Tab.1.left" timestamp="1623150441460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="252" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1622829057743" />
-    <state width="1323" height="252" key="GridCell.Tab.1.right" timestamp="1622829057743">
+    <state width="1323" height="270" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1623150441460" />
+    <state width="1323" height="270" key="GridCell.Tab.1.right" timestamp="1623150441460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="252" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1622829057743" />
+    <state width="1323" height="270" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1623150441460" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1618402248237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
