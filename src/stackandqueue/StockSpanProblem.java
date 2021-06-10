@@ -15,6 +15,7 @@ public class StockSpanProblem {
         int span[] = new int[n];
 
         stack.push(0);
+
         span[0] = 1;
         for(int i=1; i<n; i++) {
 
@@ -29,7 +30,6 @@ public class StockSpanProblem {
 
             stack.push(i);
         }
-
 
         for(int i=0; i<n; i++) {
             System.out.println(price[i] + " -----------> " + span[i]);
