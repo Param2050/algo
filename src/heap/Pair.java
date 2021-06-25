@@ -1,28 +1,26 @@
 package heap;
 
-public class Pair {
+import java.util.Comparator;
+
+public class Pair implements Comparator<Pair> {
     Integer key;
     Integer value;
 
     public Pair(){}
+
     public Pair(Integer key, Integer value) {
         this.key = key;
         this.value = value;
     }
 
-    public Integer getKey() {
-        return key;
-    }
-
-    public void setKey(Integer key) {
-        this.key = key;
-    }
-
-    public Integer getValue() {
-        return value;
-    }
-
-    public void setValue(Integer value) {
-        this.value = value;
+    @Override
+    public int compare(Pair p1, Pair p2) {
+        if(p1.key > p2.key) {
+            return -1;
+        }
+        else if(p1.key < p2.key) {
+            return 1;
+        }
+        return 0;
     }
 }
