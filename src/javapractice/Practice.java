@@ -3,31 +3,38 @@ package javapractice;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Practice {
 
     public static void main(String args[]) {
-        boolean isValidDate = new Practice().isValidFormat("2021-99-11");
+        solve("aabcd", 2);
     }
 
-    private boolean isValidFormat(String date) {
-//        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-//        try{
-//            sdf.parse(date);
-//            return true;
-//        }catch (ParseException ex){
-//            System.out.println("Exception while validateExpiryDate {} " +  ex.getMessage());
-//        }
-//        return false;
+    public static String solve(String str, int B) {
 
-        String str = "15.89";
+        HashMap<String, Integer> map =  new HashMap<String, Integer>();
+        for(int i=0; i<str.length(); i++) {
+            map.put(String.valueOf(str.charAt(i)), map.getOrDefault(String.valueOf(str.charAt(i)), 0)+1);
+        }
 
-        Integer val = (int) Double.parseDouble(str);
-        System.out.println("Value " + val);
+        for(Map.Entry<String, Integer> entry : map.entrySet()) {
+            if(entry.getValue() == B) {
+               entry.setValue(-1);
+            }
+        }
 
-        return true;
+        String result = "";
+        for(Map.Entry<String, Integer> entry : map.entrySet()) {
+            if(entry.getValue() != -1) {
+                result = result + entry.getKey();
+            }
+        }
+
+        return result;
     }
 
 }

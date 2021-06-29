@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binarysearch/SearchInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearch/SearchInRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapractice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapractice/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +53,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInRotatedArray">
+  <component name="RunManager" selected="Application.LenthOfLastWordOfString">
     <configuration name="FindMinimumElementInSortedRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.FindMinimumElementInSortedRotatedArray" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAndLastOccurrenceOfAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.FirstAndLastOccurrenceOfAnElement" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -86,6 +73,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.Practice" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LenthOfLastWordOfString" />
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.SearchInRotatedArray" />
         <item itemvalue="Application.FindMinimumElementInSortedRotatedArray" />
         <item itemvalue="Application.SquareRootOfAnInteger" />
-        <item itemvalue="Application.FirstAndLastOccurrenceOfAnElement" />
-        <item itemvalue="Application.LenthOfLastWordOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -203,38 +203,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1623489014148" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1624900511658">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1624962956614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624900511658" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1624900511658">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624962956614" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1624962956613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624900511658" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1624900511658">
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624962956613" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1624962956613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624900511658" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1624900511658">
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624962956613" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1624962956613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624900511658" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1624900511654">
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624962956613" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1624962957896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624900511654" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1624900511654">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624962957896" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1624962957896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1624900511654" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1624900511654">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1624962957896" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1624962957896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1624900511654" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1624900511654">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1624962957896" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1624962957896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1624900511654" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1624962957896" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1623690110236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1261,21 +1261,6 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/string/AnagramString.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="451" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/AnagramString.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="453" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/AnagramString.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="454" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/AnagramString.java</url>
           <line>23</line>
           <option name="timeStamp" value="455" />
         </line-breakpoint>
@@ -1306,23 +1291,8 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>22</line>
+          <line>16</line>
           <option name="timeStamp" value="461" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="462" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="463" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="464" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedlist/Sort012WithChangeData.java</url>
@@ -1361,13 +1331,8 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>26</line>
+          <line>38</line>
           <option name="timeStamp" value="474" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="477" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/KthLargestElement.java</url>
@@ -1411,16 +1376,6 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="498" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="499" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
           <line>7</line>
           <option name="timeStamp" value="500" />
         </line-breakpoint>
@@ -1433,21 +1388,6 @@
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
           <line>15</line>
           <option name="timeStamp" value="503" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="504" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="505" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="506" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
@@ -2037,6 +1977,16 @@
           <url>file://$PROJECT_DIR$/src/binarysearch/SearchInRotatedArray.java</url>
           <line>42</line>
           <option name="timeStamp" value="754" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="755" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/Practice.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="756" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
