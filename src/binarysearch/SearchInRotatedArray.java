@@ -9,7 +9,6 @@ public class SearchInRotatedArray {
     }
 
     public static int search(int[] arr, int target) {
-
         int minEleIndex = getMinIndex(arr);
         int first = binarySearch(arr, 0, minEleIndex-1, target);
         int second = binarySearch(arr, minEleIndex, arr.length-1, target);
