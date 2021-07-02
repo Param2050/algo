@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaximumOfAllSubarrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumOfAllSubarrayOfSizeK">
+  <component name="RunManager" selected="Application.MinimumSizeSubarraySum">
     <configuration name="FindAllAnagramsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FindAllAnagramsOfString" />
       <module name="algorithms" />
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Permutation" />
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSizeSubarraySum" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.MaximumOfAllSubarrayOfSizeK" />
         <item itemvalue="Application.FindAllAnagramsOfString" />
         <item itemvalue="Application.FirstNegativeNumberInWindowSizeK" />
         <item itemvalue="Application.MaxSumSubrraySizeOfSizeK" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -207,38 +207,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625135150359" />
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1625140455432">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1625197268577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625140455431" />
-    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1625140455431">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625197268577" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1625197268576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625140455431" />
-    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1625140455431">
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625197268576" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1625197268576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625140455431" />
-    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1625140455431">
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625197268576" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1625197268576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625140455431" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625140457188">
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625197268576" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625197127219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625140457188" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625140457188">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625197127219" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625197127219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625140457188" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625140457188">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625197127219" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625197127218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625140457188" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625140457188">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625197127218" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625197127219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625140457188" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625197127219" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1624965853385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2034,6 +2034,31 @@
           <url>file://$PROJECT_DIR$/src/slidingwindow/MaximumOfAllSubarrayOfSizeK.java</url>
           <line>7</line>
           <option name="timeStamp" value="791" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="792" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="793" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="794" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="798" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MinimumSizeSubarraySum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="799" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
