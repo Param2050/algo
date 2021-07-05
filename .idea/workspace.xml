@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hashing/SubarraySumEqualK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/KnapsckProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/PintOneToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/SortAStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/SortAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/LongestSubstringWithoutRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingwindow/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +56,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubarraySumEqualK">
-    <configuration name="CountNoOfNiceSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountNoOfNiceSubarray" />
+  <component name="RunManager" selected="Application.SortAStack">
+    <configuration name="KnapsckProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.KnapsckProblem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNoOfVowelsInSubstringOfGivenLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxNoOfVowelsInSubstringOfGivenLength" />
+    <configuration name="PintOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.PintOneToN" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumOfAllSubarrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaximumOfAllSubarrayOfSizeK" />
+    <configuration name="SortAStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.SortAStack" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSizeSubarraySum" />
+    <configuration name="SortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.SortAnArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortAStack" />
+        <item itemvalue="Application.SortAnArray" />
+        <item itemvalue="Application.PintOneToN" />
+        <item itemvalue="Application.KnapsckProblem" />
         <item itemvalue="Application.SubarraySumEqualK" />
-        <item itemvalue="Application.MaxNoOfVowelsInSubstringOfGivenLength" />
-        <item itemvalue="Application.CountNoOfNiceSubarray" />
-        <item itemvalue="Application.MinimumSizeSubarraySum" />
-        <item itemvalue="Application.MaximumOfAllSubarrayOfSizeK" />
       </list>
     </recent_temporary>
   </component>
@@ -208,38 +210,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625135150359" />
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1625292898160">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1625504746837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625292898160" />
-    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1625292898159">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1625504746837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625292898159" />
-    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1625292898159">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1625504746837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625292898159" />
-    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1625292898160">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1625504746837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625292898160" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625292899707">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625504123499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625292899707" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625292899707">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625504123499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625292899707" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625292899707">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625504123499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625292899707" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625292899707">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625504123499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625292899707" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1624965853385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2121,6 +2123,96 @@
           <line>25</line>
           <option name="timeStamp" value="812" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/PintOneToN.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="813" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/PintOneToN.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="815" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="816" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="817" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="820" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="822" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="823" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="827" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="830" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="831" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="834" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
           <line>11</line>
@@ -2128,6 +2220,30 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recursive/PintOneToN.java</url>
+          <line>8</line>
+          <properties class="recursive.PintOneToN" method="printOneToNNumbers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="814" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAnArray.java</url>
+          <line>20</line>
+          <properties class="recursive.SortAnArray" method="insert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recursive/SortAStack.java</url>
+          <line>33</line>
+          <properties class="recursive.SortAStack" method="insert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="835" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
