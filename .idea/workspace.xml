@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursive/DeleteAMiddleElementFromStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/ReverseAStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteAMiddleElementFromStack">
+  <component name="RunManager" selected="Application.ReverseAStack">
     <configuration name="DeleteAMiddleElementFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursive.DeleteAMiddleElementFromStack" />
       <module name="algorithms" />
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsckProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.KnapsckProblem" />
+    <configuration name="PintOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.PintOneToN" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PintOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.PintOneToN" />
+    <configuration name="ReverseAStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.ReverseAStack" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseAStack" />
         <item itemvalue="Application.DeleteAMiddleElementFromStack" />
         <item itemvalue="Application.SortAStack" />
         <item itemvalue="Application.SortAnArray" />
         <item itemvalue="Application.PintOneToN" />
-        <item itemvalue="Application.KnapsckProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -207,38 +207,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625135150359" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1625555346319">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1625555346319">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.0.center" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1625555346319">
+    <state width="1323" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.0.left" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1625555346319">
+    <state width="1323" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.0.right" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625555331398">
+    <state width="1323" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.1.bottom" timestamp="1625586520218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625555331398">
+    <state width="1323" height="283" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625586520218" />
+    <state width="1323" height="283" key="GridCell.Tab.1.center" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625555331397">
+    <state width="1323" height="283" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.1.left" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625555331397" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625555331398">
+    <state width="1323" height="283" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
+    <state width="1323" height="283" key="GridCell.Tab.1.right" timestamp="1625586520217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
+    <state width="1323" height="283" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625586520217" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1624965853385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2214,6 +2214,41 @@
           <url>file://$PROJECT_DIR$/src/recursive/DeleteAMiddleElementFromStack.java</url>
           <line>15</line>
           <option name="timeStamp" value="836" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="842" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="843" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="844" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="845" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/ReverseAStack.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="847" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
