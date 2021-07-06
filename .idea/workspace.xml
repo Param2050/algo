@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/KnapsckProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursive/PintOneToN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursive/SortAStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursive/SortAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/DeleteAMiddleElementFromStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,20 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortAStack">
+  <component name="RunManager" selected="Application.DeleteAMiddleElementFromStack">
+    <configuration name="DeleteAMiddleElementFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.DeleteAMiddleElementFromStack" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KnapsckProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.KnapsckProblem" />
       <module name="algorithms" />
@@ -109,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.SubarraySumEqualK" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteAMiddleElementFromStack" />
         <item itemvalue="Application.SortAStack" />
         <item itemvalue="Application.SortAnArray" />
         <item itemvalue="Application.PintOneToN" />
         <item itemvalue="Application.KnapsckProblem" />
-        <item itemvalue="Application.SubarraySumEqualK" />
       </list>
     </recent_temporary>
   </component>
@@ -210,38 +207,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625135150359" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1625504746837">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1625555346319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1625504746837">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1625555346319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1625504746837">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1625555346319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1625504746837">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1625555346319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625504746837" />
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625504123499">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625555346319" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1625555331398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
-    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625504123499">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1625555331398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
-    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625504123499">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1625555331397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
-    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625504123499">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625555331397" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1625555331398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625504123499" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625555331398" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1624965853385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2213,6 +2210,11 @@
           <line>40</line>
           <option name="timeStamp" value="834" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/DeleteAMiddleElementFromStack.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="836" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
           <line>11</line>
@@ -2244,6 +2246,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="835" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recursive/DeleteAMiddleElementFromStack.java</url>
+          <line>23</line>
+          <properties class="recursive.DeleteAMiddleElementFromStack" method="deleteMiddleElement">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="837" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
