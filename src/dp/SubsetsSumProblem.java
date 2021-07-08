@@ -4,7 +4,7 @@ public class SubsetsSumProblem {
 
     public static void main(String args[]) {
         int arr[] = {2,3,7,8,9};
-        int sum = 14;
+        int sum = 17;
         if(isSubsetPresent(arr, sum)) {
             System.out.println("YES");
         }
@@ -17,8 +17,16 @@ public class SubsetsSumProblem {
         int n = arr.length;
         boolean t[][] = new boolean[n+1][sum+1];
 
-        for(int i=0; i<=n; i++) {
-            for(int j=0; j<=sum; j++) {
+        t[0][0] = true;
+
+        for(int i = 1; i <= sum; i++)
+            t[0][i] = false;
+
+        for(int i = 1; i <= n; i++)
+            t[i][0] = true;
+
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=sum; j++) {
 
                 if(i == 0) {
                     t[i][j] = false;
