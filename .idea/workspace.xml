@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinimumSubsetSumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CountNoOfSubsetsWithGivenDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +53,22 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumSubsetSumDifference">
+  <component name="RunManager" selected="Application.CountNoOfSubsetsWithGivenDifference">
     <configuration name="CountNoOfSubsetsForGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CountNoOfSubsetsForGivenSum" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountNoOfSubsetsWithGivenDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CountNoOfSubsetsWithGivenDifference" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -93,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseAStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.ReverseAStack" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubsetsSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.SubsetsSumProblem" />
       <module name="algorithms" />
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNoOfSubsetsWithGivenDifference" />
         <item itemvalue="Application.MinimumSubsetSumDifference" />
         <item itemvalue="Application.SubsetsSumProblem" />
         <item itemvalue="Application.CountNoOfSubsetsForGivenSum" />
         <item itemvalue="Application.EqualSumPartitionProblem" />
-        <item itemvalue="Application.ReverseAStack" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +207,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625135150359" />
-    <state width="1323" height="254" key="GridCell.Tab.0.bottom" timestamp="1625761549711">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom" timestamp="1625761706242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625761549711" />
-    <state width="1323" height="254" key="GridCell.Tab.0.center" timestamp="1625761549710">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625761706242" />
+    <state width="1323" height="254" key="GridCell.Tab.0.center" timestamp="1625761706242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625761549710" />
-    <state width="1323" height="254" key="GridCell.Tab.0.left" timestamp="1625761549710">
+    <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625761706242" />
+    <state width="1323" height="254" key="GridCell.Tab.0.left" timestamp="1625761706242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625761549710" />
-    <state width="1323" height="254" key="GridCell.Tab.0.right" timestamp="1625761549710">
+    <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625761706242" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right" timestamp="1625761706242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625761549710" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625761706242" />
     <state width="1323" height="174" key="GridCell.Tab.1.bottom" timestamp="1625761362984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2257,12 +2257,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dp/SubsetsSumProblem.java</url>
-          <line>40</line>
+          <line>48</line>
           <option name="timeStamp" value="849" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dp/SubsetsSumProblem.java</url>
-          <line>28</line>
+          <line>36</line>
           <option name="timeStamp" value="850" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
