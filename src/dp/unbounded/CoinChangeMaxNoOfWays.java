@@ -3,7 +3,7 @@ package dp.unbounded;
 public class CoinChangeMaxNoOfWays {
 
     public static void main(String args[]) {
-        int coin [] = {1,2,3};
+        int coin [] = {1,2,5};
         int N = 5;
         System.out.println(new CoinChangeMaxNoOfWays().maxNoOfWays(coin, N));
     }
@@ -22,11 +22,7 @@ public class CoinChangeMaxNoOfWays {
         for(int i=1; i<=arrSize; i++) {
             for(int j=1; j<=N; j++) {
 
-                if(i == 0 || j == 0) {
-                    t[i][j] = 0;
-                }
-
-                else if(coin[i-1] <= j) {
+                if(coin[i-1] <= j) {
                     t[i][j] = t[i][j - coin[i-1]] + t[i-1][j];
                 }
                 else {
