@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/BuyAndSellStockOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/BuyAndSellStockTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="heap" />
       <recent name="dp" />
+      <recent name="heap" />
       <recent name="leetcode" />
       <recent name="hackerrank.tree" />
       <recent name="tree" />
@@ -54,9 +53,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordBreak">
-    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LIS" />
+  <component name="RunManager" selected="Application.BuyAndSellStockTwo">
+    <configuration name="BuyAndSellStockOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.BuyAndSellStockOne" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +67,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LongestCommonSubstring" />
+    <configuration name="BuyAndSellStockTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.BuyAndSellStockTwo" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LIS" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -107,26 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.WordBreak" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.LIS" />
+      <item itemvalue="Application.LongestRepeatingSubsequence" />
+      <item itemvalue="Application.MatrixChainMultiplication" />
+      <item itemvalue="Application.BuyAndSellStockTwo" />
+      <item itemvalue="Application.BuyAndSellStockOne" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.BuyAndSellStockTwo" />
+        <item itemvalue="Application.BuyAndSellStockOne" />
         <item itemvalue="Application.LIS" />
         <item itemvalue="Application.LongestRepeatingSubsequence" />
         <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.LongestCommonSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +194,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Rotate linked list" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626261701938">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1626261701938" />
     <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1624713399912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -208,38 +218,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1626245510388">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1626266929944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626245510388" />
-    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1626245510388">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626266929944" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1626266929944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626245510388" />
-    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1626245510387">
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626266929944" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1626266929944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626245510387" />
-    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1626245510388">
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626266929944" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1626266929944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626245510388" />
-    <state width="1323" height="195" key="GridCell.Tab.1.bottom" timestamp="1626245512008">
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626266929944" />
+    <state width="1323" height="195" key="GridCell.Tab.1.bottom" timestamp="1626266054119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626245512008" />
-    <state width="1323" height="195" key="GridCell.Tab.1.center" timestamp="1626245512008">
+    <state width="1323" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626266054119" />
+    <state width="1323" height="195" key="GridCell.Tab.1.center" timestamp="1626266054119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1626245512008" />
-    <state width="1323" height="195" key="GridCell.Tab.1.left" timestamp="1626245512008">
+    <state width="1323" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1626266054119" />
+    <state width="1323" height="195" key="GridCell.Tab.1.left" timestamp="1626266054119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1626245512008" />
-    <state width="1323" height="195" key="GridCell.Tab.1.right" timestamp="1626245512008">
+    <state width="1323" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1626266054119" />
+    <state width="1323" height="195" key="GridCell.Tab.1.right" timestamp="1626266054119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1626245512008" />
+    <state width="1323" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1626266054119" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1624965853385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2340,31 +2350,6 @@
           <url>file://$PROJECT_DIR$/src/recursive/MatrixChainMultiplication.java</url>
           <line>21</line>
           <option name="timeStamp" value="887" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/WordBreak.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="890" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/WordBreak.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="891" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/WordBreak.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="892" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/WordBreak.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="893" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/WordBreak.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="894" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
