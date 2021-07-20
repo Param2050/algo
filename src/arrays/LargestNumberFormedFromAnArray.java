@@ -9,33 +9,33 @@ import java.util.stream.Stream;
 
 public class LargestNumberFormedFromAnArray {
     public static void main(String args[]) {
-        int arr[] = {54, 546, 548, 60};
+//        int arr[] = {54, 546, 548, 60};
+        int arr[] = {10,2};
         String largestNumber = new LargestNumberFormedFromAnArray().getLargestNum(arr);
         System.out.println("Largest number : " + largestNumber);
     }
 
     private String getLargestNum(int[] arr) {
-        for(int i=0; i<arr.length; i++) {
-            for(int j=i+1; j<arr.length; j++) {
-                String ij = String.valueOf(arr[i]) + arr[j];
-                String ji = String.valueOf(arr[j]) + arr[i];
-                if(Integer.parseInt(ji) > Integer.parseInt(ij)) {
-                    swap(arr, j, i);
-                }
-            }
+        int len = arr.length;
+        if(len == 0)
+            return "";
+
+        String arrStr[] = new String[len];
+
+        for(int i=0; i<len; i++)
+            arrStr[i] = Integer.toString(arr[i]);
+
+        Arrays.sort(arrStr, (a,b)-> (b+a).compareTo(a+b));
+
+        if(arrStr[0].equals("0"))
+            return "0";
+
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for(int i=0; i<len; i++) {
+            stringBuilder.append(arrStr[i]);
         }
-
-        List<Integer> elements = IntStream.of(arr)
-                .boxed().collect(Collectors.toList());
-
-        return elements.stream()
-                .map(i -> i.toString())
-                .collect(Collectors.joining());
+        return stringBuilder.toString();
     }
 
-    private static void swap(int arr[], int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
 }
