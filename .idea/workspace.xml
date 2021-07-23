@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaximumErasureValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingwindow/MaxNoOfVowelsInSubstringOfGivenLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingwindow/MaxNoOfVowelsInSubstringOfGivenLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestNumberFormedFromAnArray">
-    <configuration name="InsertInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.InsertInterval" />
+  <component name="RunManager" selected="Application.MaximumErasureValue">
+    <configuration name="FindAllAnagramsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.FindAllAnagramsOfString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberFormedFromAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.LargestNumberFormedFromAnArray" />
+    <configuration name="FirstNegativeNumberInWindowSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.FirstNegativeNumberInWindowSizeK" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeIntervals" />
+    <configuration name="MaxNoOfVowelsInSubstringOfGivenLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxNoOfVowelsInSubstringOfGivenLength" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprialMatrixTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SprialMatrixTwo" />
+    <configuration name="MaxSumSubrraySizeOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxSumSubrraySizeOfSizeK" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.Subsets" />
+    <configuration name="MaximumErasureValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaximumErasureValue" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursive.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertInterval" />
-      <item itemvalue="Application.LargestNumberFormedFromAnArray" />
-      <item itemvalue="Application.MergeIntervals" />
-      <item itemvalue="Application.SprialMatrixTwo" />
-      <item itemvalue="Application.Subsets" />
+      <item itemvalue="Application.FindAllAnagramsOfString" />
+      <item itemvalue="Application.MaxSumSubrraySizeOfSizeK" />
+      <item itemvalue="Application.FirstNegativeNumberInWindowSizeK" />
+      <item itemvalue="Application.MaxNoOfVowelsInSubstringOfGivenLength" />
+      <item itemvalue="Application.MaximumErasureValue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestNumberFormedFromAnArray" />
-        <item itemvalue="Application.InsertInterval" />
-        <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.SprialMatrixTwo" />
-        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.MaximumErasureValue" />
+        <item itemvalue="Application.MaxNoOfVowelsInSubstringOfGivenLength" />
+        <item itemvalue="Application.FirstNegativeNumberInWindowSizeK" />
+        <item itemvalue="Application.MaxSumSubrraySizeOfSizeK" />
+        <item itemvalue="Application.FindAllAnagramsOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -218,42 +219,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1626698855331">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1627020798974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626698855331" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1626698855331">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627020798974" />
+    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1627020798974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626698855331" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1626698855331">
+    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627020798974" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1627020798974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626698855331" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1626698855331">
+    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627020798974" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1627020798974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626698855331" />
-    <state width="1323" height="183" key="GridCell.Tab.1.bottom" timestamp="1626698855327">
+    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627020798974" />
+    <state width="1323" height="293" key="GridCell.Tab.1.bottom" timestamp="1627016851319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626698855327" />
-    <state width="1323" height="183" key="GridCell.Tab.1.center" timestamp="1626698855327">
+    <state width="1323" height="293" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627016851319" />
+    <state width="1323" height="293" key="GridCell.Tab.1.center" timestamp="1627016851319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1626698855327" />
-    <state width="1323" height="183" key="GridCell.Tab.1.left" timestamp="1626698855327">
+    <state width="1323" height="293" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627016851319" />
+    <state width="1323" height="293" key="GridCell.Tab.1.left" timestamp="1627016851318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1626698855327" />
-    <state width="1323" height="183" key="GridCell.Tab.1.right" timestamp="1626698855327">
+    <state width="1323" height="293" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627016851318" />
+    <state width="1323" height="293" key="GridCell.Tab.1.right" timestamp="1627016851319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1626698855327" />
+    <state width="1323" height="293" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627016851319" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1626606151212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1626606151212" />
+    <state x="545" y="79" key="VCS.ChangeListViewerDialog" timestamp="1626949608988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="545" y="79" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1626949608988" />
     <state x="177" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622045921745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1899,16 +1904,6 @@
           <option name="timeStamp" value="771" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="772" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="773" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/slidingwindow/MaximumOfAllSubarrayOfSizeK.java</url>
           <line>28</line>
           <option name="timeStamp" value="779" />
@@ -2381,6 +2376,51 @@
           <line>57</line>
           <option name="timeStamp" value="928" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="929" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="931" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="937" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/FindAllAnagramsOfString.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="941" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MaximumErasureValue.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="952" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
           <line>11</line>
@@ -2439,6 +2479,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="curr[0]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithms$KClosestNumbers.ic" NAME="KClosestNumbers Coverage Results" MODIFIED="1624642163267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

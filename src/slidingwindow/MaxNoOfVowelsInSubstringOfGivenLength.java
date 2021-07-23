@@ -6,8 +6,8 @@ import java.util.List;
 public class MaxNoOfVowelsInSubstringOfGivenLength {
 
     public static void main(String args[]) {
-        String str = "tryhard";
-        System.out.println("Min : " + maxVowels(str, 4));
+        String str = "abciiidef";
+        System.out.println("Max no vowels : " + maxVowels(str, 3));
     }
 
     public static int maxVowels(String str, int k) {
