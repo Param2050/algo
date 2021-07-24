@@ -58,7 +58,7 @@ public class NthNodeFromEnd {
 
         obj.printList();
 
-        obj.findNthNodeFromEnd(6);
+        obj.findNthNodeFromEnd(2);
 
     }
 }

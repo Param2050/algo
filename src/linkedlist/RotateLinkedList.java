@@ -60,16 +60,15 @@ public class RotateLinkedList {
     public static void main(String args[]) {
         RotateLinkedList obj = new RotateLinkedList();
 
-        obj.push(60);
-        obj.push(50);
-        obj.push(40);
-        obj.push(30);
-        obj.push(20);
-        obj.push(10);
+        obj.push(5);
+        obj.push(4);
+        obj.push(3);
+        obj.push(2);
+        obj.push(1);
         System.out.println("Before rotation : ");
         obj.printList();
 
-        obj.rotate(3);
+        obj.rotate(2);
 
         System.out.println("After rotation : ");
         obj.printList();
