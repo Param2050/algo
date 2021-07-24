@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesFromSortedListOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/linkedlist/NthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/linkedlist/NthNodeFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/linkedlist/RotateLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/linkedlist/RotateLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/NthNodeFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/RotateLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteNthNodeFromEndOfTheList">
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedListOne">
     <configuration name="DeleteNthNodeFromEndOfTheList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.DeleteNthNodeFromEndOfTheList" />
       <module name="algorithms" />
@@ -98,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicatesFromSortedListOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveDuplicatesFromSortedListOne" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.RotateLinkedList" />
       <module name="algorithms" />
@@ -111,33 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ValidPalindrome" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.DeleteNthNodeFromEndOfTheList" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
-      <item itemvalue="Application.NthNodeFromEnd" />
       <item itemvalue="Application.RotateLinkedList" />
-      <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.NthNodeFromEnd" />
+      <item itemvalue="Application.DeleteNthNodeFromEndOfTheList" />
+      <item itemvalue="Application.RemoveDuplicatesFromSortedListOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedListOne" />
         <item itemvalue="Application.DeleteNthNodeFromEndOfTheList" />
         <item itemvalue="Application.NthNodeFromEnd" />
         <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
-        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -223,38 +218,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1627061271843">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1627101486171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1627061271843">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627101486171" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1627101486170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1627061271843">
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627101486170" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1627101486170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1627061271843">
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627101486170" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1627101486170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1627061271843">
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627101486170" />
+    <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1627101470254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.1.center" timestamp="1627061271843">
+    <state width="1323" height="224" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627101470254" />
+    <state width="1323" height="224" key="GridCell.Tab.1.center" timestamp="1627101470253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.1.left" timestamp="1627061271843">
+    <state width="1323" height="224" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627101470253" />
+    <state width="1323" height="224" key="GridCell.Tab.1.left" timestamp="1627101470253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
-    <state width="1323" height="224" key="GridCell.Tab.1.right" timestamp="1627061271843">
+    <state width="1323" height="224" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627101470253" />
+    <state width="1323" height="224" key="GridCell.Tab.1.right" timestamp="1627101470253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627061271843" />
+    <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627101470253" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1627054174922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2541,34 +2536,19 @@
           <option name="timeStamp" value="981" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="987" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
+          <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesFromSortedListOne.java</url>
           <line>49</line>
-          <option name="timeStamp" value="988" />
+          <option name="timeStamp" value="994" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="989" />
+          <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesFromSortedListOne.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="996" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="990" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="992" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteNthNodeFromEndOfTheList.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="993" />
+          <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesFromSortedListOne.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="997" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>
