@@ -57,12 +57,10 @@ public class PrintTreeInVerticalOrder {
             }
         }
 
-        for(Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
+        map.entrySet().forEach(entry -> {
             List<Integer> values = entry.getValue();
-            for(int i=0; i<values.size(); i++) {
-                System.out.print(values.get(i) + " ");
-            }
             System.out.println();
-        }
+            values.stream().forEach(value-> System.out.print(value + " "));
+        });
     }
 }
