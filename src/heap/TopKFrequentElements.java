@@ -31,7 +31,6 @@ public class TopKFrequentElements {
             if(priorityQueue.size() > k) {
                 priorityQueue.poll();
             }
-            System.out.println("Top " + priorityQueue.peek().key);
         }
 
         int res [] = new int[k];

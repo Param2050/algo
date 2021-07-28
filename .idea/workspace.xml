@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PrintTreeInVerticalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PrintTreeInVerticalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintTreeInVerticalOrder">
-    <configuration name="AddTwoNumbesRepresentedByLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.AddTwoNumbesRepresentedByLinkedList" />
+  <component name="RunManager" selected="Application.TopKFrequentElements">
+    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.KthLargestElementInArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairWiseSwapWithLinkChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.PairWiseSwapWithLinkChange" />
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MaxHeap" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.PalindromeCheck" />
+    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MinHeap" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintTreeInVerticalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PrintTreeInVerticalOrder" />
+    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.TopKFrequentElements" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedListTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveDuplicatesFromSortedListTwo" />
+    <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.TopKFrequentWords" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbesRepresentedByLinkedList" />
-      <item itemvalue="Application.PairWiseSwapWithLinkChange" />
-      <item itemvalue="Application.PalindromeCheck" />
-      <item itemvalue="Application.RemoveDuplicatesFromSortedListTwo" />
-      <item itemvalue="Application.PrintTreeInVerticalOrder" />
+      <item itemvalue="Application.MinHeap" />
+      <item itemvalue="Application.TopKFrequentWords" />
+      <item itemvalue="Application.MaxHeap" />
+      <item itemvalue="Application.KthLargestElementInArray" />
+      <item itemvalue="Application.TopKFrequentElements" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintTreeInVerticalOrder" />
-        <item itemvalue="Application.PalindromeCheck" />
-        <item itemvalue="Application.AddTwoNumbesRepresentedByLinkedList" />
-        <item itemvalue="Application.PairWiseSwapWithLinkChange" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedListTwo" />
+        <item itemvalue="Application.TopKFrequentElements" />
+        <item itemvalue="Application.KthLargestElementInArray" />
+        <item itemvalue="Application.MaxHeap" />
+        <item itemvalue="Application.MinHeap" />
+        <item itemvalue="Application.TopKFrequentWords" />
       </list>
     </recent_temporary>
   </component>
@@ -218,22 +218,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1627370935696">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1627448456421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627370935696" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1627370935696">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1627448456421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627370935696" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1627370935696">
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1627448456421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627370935696" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1627370935696">
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1627448456421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627370935696" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
     <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1627107603972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -262,10 +262,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="177" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1622045921745" />
-    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1626427711754">
+    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1627444204809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1626427711754" />
+    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627444204809" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1626628543139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
