@@ -3,7 +3,7 @@ package dp;
 public class LongestRepeatingSubsequence {
 
     public static void main(String args[]) {
-        String s1 = "aabb";
+        String s1 = "aabbb";
         String s2 = s1;
 
         char[] X=s1.toCharArray();
@@ -11,7 +11,7 @@ public class LongestRepeatingSubsequence {
         int m = X.length;
         int n = Y.length;
 
-        System.out.println("Length of LCS is" + " " +
+        System.out.println("Length of Longest repeating subsequence is" + " " +
                 lcs( X, Y, m, n ) );
     }
 

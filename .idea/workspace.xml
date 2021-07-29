@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LongestRepeatingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestRepeatingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/SubsetsSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/SubsetsSumProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,13 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentElements">
-    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.KthLargestElementInArray" />
+  <component name="RunManager" selected="Application.SubsetsSumProblem">
+    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestPalindromicSubsequence" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.MaxHeap" />
+    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestRepeatingSubsequence" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.MinHeap" />
+    <configuration name="MaxProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MaxProductSubarray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.TopKFrequentElements" />
+    <configuration name="MinimumDeletionsToMakeStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinimumDeletionsToMakeStringPalindrome" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.TopKFrequentWords" />
+    <configuration name="SubsetsSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.SubsetsSumProblem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinHeap" />
-      <item itemvalue="Application.TopKFrequentWords" />
-      <item itemvalue="Application.MaxHeap" />
-      <item itemvalue="Application.KthLargestElementInArray" />
-      <item itemvalue="Application.TopKFrequentElements" />
+      <item itemvalue="Application.LongestRepeatingSubsequence" />
+      <item itemvalue="Application.MaxProductSubarray" />
+      <item itemvalue="Application.MinimumDeletionsToMakeStringPalindrome" />
+      <item itemvalue="Application.LongestPalindromicSubsequence" />
+      <item itemvalue="Application.SubsetsSumProblem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.KthLargestElementInArray" />
-        <item itemvalue="Application.MaxHeap" />
-        <item itemvalue="Application.MinHeap" />
-        <item itemvalue="Application.TopKFrequentWords" />
+        <item itemvalue="Application.SubsetsSumProblem" />
+        <item itemvalue="Application.MinimumDeletionsToMakeStringPalindrome" />
+        <item itemvalue="Application.LongestPalindromicSubsequence" />
+        <item itemvalue="Application.MaxProductSubarray" />
+        <item itemvalue="Application.LongestRepeatingSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -218,22 +219,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1627448456421">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1627577870207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
-    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1627448456421">
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627577870207" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1627577870206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
-    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1627448456421">
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1627577870206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
-    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1627448456421">
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1627577870206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627448456421" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
     <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1627107603972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -250,10 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627107603972" />
-    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1627054174922">
+    <state x="445" y="78" key="RollbackChangesDialog" timestamp="1627494350248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1627054174922" />
+    <state x="445" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1627494350248" />
     <state x="545" y="79" key="VCS.ChangeListViewerDialog" timestamp="1626949608988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -262,10 +263,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="177" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1622045921745" />
-    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1627444204809">
+    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1627487661955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627444204809" />
+    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627487661955" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1626628543139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1528,7 +1529,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/heap/TopKFrequentElements.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="663" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1546,13 +1547,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/heap/TopKFrequentElements.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="672" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/heap/TopKFrequentElements.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="676" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/heap/KClosestNumbers.java</url>
@@ -2092,13 +2088,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dp/SubsetsSumProblem.java</url>
-          <line>48</line>
+          <line>38</line>
           <option name="timeStamp" value="849" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/SubsetsSumProblem.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="850" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dp/CountNoOfSubsetsForGivenSum.java</url>
