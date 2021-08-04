@@ -7,8 +7,8 @@ import java.util.List;
 public class MergeIntervals {
 
     public static void main(String args[]) {
-        int[][] intervals = {};
-//        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
+//        int[][] intervals = {};
+        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
 
         int[][] results = new MergeIntervals().merge(intervals);
         System.out.println(results);

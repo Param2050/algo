@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e399d3-ec84-4cb9-8eb3-373d77b7dc83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javapractice/threads/HackerEarthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/LongestRepeatingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestRepeatingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/SubsetsSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/SubsetsSumProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MaxProductSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/MaxProductSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/java-design-patterns/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/luthor/build.gradle" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,9 +59,9 @@
       <recent name="C:\Users\Parminder.bharti\myproject\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubsetsSumProblem">
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LongestPalindromicSubsequence" />
+  <component name="RunManager" selected="Application.MaxProductSubarray">
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LIS" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumDeletionsToMakeStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinimumDeletionsToMakeStringPalindrome" />
+    <configuration name="MinimumSubsetSumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinimumSubsetSumDifference" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -121,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LIS" />
       <item itemvalue="Application.LongestRepeatingSubsequence" />
       <item itemvalue="Application.MaxProductSubarray" />
-      <item itemvalue="Application.MinimumDeletionsToMakeStringPalindrome" />
-      <item itemvalue="Application.LongestPalindromicSubsequence" />
+      <item itemvalue="Application.MinimumSubsetSumDifference" />
       <item itemvalue="Application.SubsetsSumProblem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsetsSumProblem" />
-        <item itemvalue="Application.MinimumDeletionsToMakeStringPalindrome" />
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
         <item itemvalue="Application.MaxProductSubarray" />
         <item itemvalue="Application.LongestRepeatingSubsequence" />
+        <item itemvalue="Application.LIS" />
+        <item itemvalue="Application.SubsetsSumProblem" />
+        <item itemvalue="Application.MinimumSubsetSumDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -215,42 +220,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1623489014148" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1625987437487">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1628058410676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625987437487" />
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1627577870207">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1628058410676" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1628056455496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627577870207" />
-    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1627577870206">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628056455496" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1628056455496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
-    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1627577870206">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628056455496" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1628056455496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
-    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1627577870206">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628056455496" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1628056455496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627577870206" />
-    <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1627107603972">
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628056455496" />
+    <state width="1323" height="302" key="GridCell.Tab.1.bottom" timestamp="1627756084119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627107603972" />
-    <state width="1323" height="224" key="GridCell.Tab.1.center" timestamp="1627107603972">
+    <state width="1323" height="302" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627756084119" />
+    <state width="1323" height="302" key="GridCell.Tab.1.center" timestamp="1627756084119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627107603972" />
-    <state width="1323" height="224" key="GridCell.Tab.1.left" timestamp="1627107603972">
+    <state width="1323" height="302" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627756084119" />
+    <state width="1323" height="302" key="GridCell.Tab.1.left" timestamp="1627756084119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627107603972" />
-    <state width="1323" height="224" key="GridCell.Tab.1.right" timestamp="1627107603972">
+    <state width="1323" height="302" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627756084119" />
+    <state width="1323" height="302" key="GridCell.Tab.1.right" timestamp="1627756084119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627107603972" />
+    <state width="1323" height="302" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627756084119" />
     <state x="445" y="78" key="RollbackChangesDialog" timestamp="1627494350248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -2297,17 +2302,17 @@
           <option name="timeStamp" value="928" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/RemoveDuplicatesFromSortedArray.java</url>
           <line>15</line>
           <option name="timeStamp" value="929" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/RemoveDuplicatesFromSortedArray.java</url>
           <line>20</line>
           <option name="timeStamp" value="930" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/RemovDuplicatesFromSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/RemoveDuplicatesFromSortedArray.java</url>
           <line>17</line>
           <option name="timeStamp" value="931" />
         </line-breakpoint>
@@ -2485,6 +2490,39 @@
           <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesFromSortedListOne.java</url>
           <line>55</line>
           <option name="timeStamp" value="997" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java</url>
+          <line>27</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="998" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="999" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/LargestNumberFormedFromAnArray.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1000" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/threads/HackerEarthTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1001" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/threads/HackerEarthTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1002" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javapractice/threads/HackerEarthTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1003" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/string/Permutation.java</url>

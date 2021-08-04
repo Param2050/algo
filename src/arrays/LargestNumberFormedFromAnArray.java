@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 
 public class LargestNumberFormedFromAnArray {
     public static void main(String args[]) {
-//        int arr[] = {54, 546, 548, 60};
-        int arr[] = {10,2};
+        int arr[] = {54, 546, 548, 60};
+//        int arr[] = {10,2};
         String largestNumber = new LargestNumberFormedFromAnArray().getLargestNum(arr);
         System.out.println("Largest number : " + largestNumber);
     }

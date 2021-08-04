@@ -3,7 +3,7 @@ package dp;
 public class MaxProductSubarray {
 
     public static void main(String args[]) {
-        int arr[] = {2,3,-2,4};
+        int arr[] = {-2, -40, 0, -2, -3};
         System.out.println(new MaxProductSubarray().maxProductSubarray(arr));
     }
 

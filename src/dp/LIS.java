@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LIS {
     public static void  main(String args[]) {
-        int arr[] = {5,8,7,1,9};
+        int arr[] = {84,80,27};
         System.out.println(new LIS().lis(arr, arr.length));
     }
 
